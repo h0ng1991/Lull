@@ -4,6 +4,14 @@
 
 把 AI 编程助手"思考/干活"时的那段等待,变成一张**一瞥即看的闪卡**。
 
+<p align="center">
+  <img src="docs/1.png" width="300" alt="Lull 卡片 — 心理(英文界面)">
+  <img src="docs/2.png" width="300" alt="Lull 卡片 — SQL(英文界面)">
+  <br>
+  <img src="docs/3.png" width="300" alt="Lull 卡片 — 效率(中文界面)">
+  <img src="docs/4.png" width="300" alt="Lull 卡片 — 历史(中文界面)">
+</p>
+
 与其在 10–60 秒的转圈里下意识掏手机,不如复习一张**主动回忆**卡——内容贴着你正在做的事——顺便攒起一个小小的每日连续记录。卡片在助手开始干活的瞬间弹到屏幕角落,干完就让路。
 
 > **状态:** Windows 可用(Claude Code CLI / 桌面版 Code 标签)。

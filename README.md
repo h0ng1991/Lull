@@ -4,6 +4,14 @@
 
 Turn the wait while your AI coding agent thinks into one quick, glanceable flashcard.
 
+<p align="center">
+  <img src="docs/1.png" width="300" alt="Lull card — Psychology (English)">
+  <img src="docs/2.png" width="300" alt="Lull card — SQL (English)">
+  <br>
+  <img src="docs/3.png" width="300" alt="Lull card — Productivity (中文)">
+  <img src="docs/4.png" width="300" alt="Lull card — History (中文)">
+</p>
+
 Instead of reflex-checking your phone during the 10–60s spinner, you review one
 active-recall card — relevant to what you're building — and watch a small daily
 streak add up. The card pops at your screen corner the moment the agent starts

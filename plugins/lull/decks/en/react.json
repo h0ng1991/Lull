@@ -1,0 +1,121 @@
+{
+  "stack": "react",
+  "name": "React",
+  "cards": [
+    {
+      "id": "rc-stale",
+      "front": "The useEffect stale-closure bug?",
+      "back": "It captures values from its render; missing deps keep old values. List every value used."
+    },
+    {
+      "id": "rc-key",
+      "front": "Why do lists need a stable key?",
+      "back": "It matches items across renders; index keys break on reorder/insert."
+    },
+    {
+      "id": "rc-memo",
+      "front": "useMemo vs useCallback?",
+      "back": "useMemo caches a value; useCallback caches a function."
+    },
+    {
+      "id": "rc-controlled",
+      "front": "Controlled vs uncontrolled input?",
+      "back": "Controlled: value from state. Uncontrolled: DOM holds it, read via ref."
+    },
+    {
+      "id": "rc-cleanup",
+      "front": "Why return a function from useEffect?",
+      "back": "It's cleanup — runs before the next effect and on unmount."
+    },
+    {
+      "id": "rc-async",
+      "front": "Why are state updates \"async\"?",
+      "back": "React batches and re-renders later, so reading right after setState gives the old value."
+    },
+    {
+      "id": "rc-mutate",
+      "front": "Why not mutate state directly?",
+      "back": "React compares references; mutate-in-place can skip updates. Make new objects."
+    },
+    {
+      "id": "rc-lift",
+      "front": "What is lifting state up?",
+      "back": "Move shared state to the closest common parent and pass it down."
+    },
+    {
+      "id": "rc-ref",
+      "front": "When to use useRef?",
+      "back": "A mutable value that persists without re-rendering, or to access a DOM node."
+    },
+    {
+      "id": "rc-fragment",
+      "front": "Why use a Fragment?",
+      "back": "Return multiple elements without an extra wrapper div."
+    },
+    {
+      "id": "rc-props-state",
+      "front": "props vs state?",
+      "back": "props are passed in from a parent (read-only); state is owned and changed by the component."
+    },
+    {
+      "id": "rc-props-ro",
+      "front": "Can a component change its props?",
+      "back": "No — props are read-only. To change data, lift state up or use a callback prop."
+    },
+    {
+      "id": "rc-usestate",
+      "front": "What does useState return?",
+      "back": "A pair: the current value and a setter — const [n, setN] = useState(0)."
+    },
+    {
+      "id": "rc-conditional",
+      "front": "How to render conditionally?",
+      "back": "Use && or a ternary in JSX: {isOpen && <Menu/>} or {x ? <A/> : <B/>}."
+    },
+    {
+      "id": "rc-map",
+      "front": "How to render a list?",
+      "back": "Map data to elements: items.map(i => <li key={i.id}>{i.name}</li>)."
+    },
+    {
+      "id": "rc-handler",
+      "front": "onClick={handleClick} vs onClick={handleClick()}?",
+      "back": "Pass the function, don't call it — () runs it immediately on render."
+    },
+    {
+      "id": "rc-derived",
+      "front": "Should you copy props into state?",
+      "back": "Usually no — compute derived values during render to avoid them going stale."
+    },
+    {
+      "id": "rc-empty-deps",
+      "front": "What does useEffect with [] do?",
+      "back": "Runs the effect once after mount (and cleanup on unmount)."
+    },
+    {
+      "id": "rc-custom-hook",
+      "front": "What is a custom hook?",
+      "back": "A reusable function starting with \"use\" that bundles hook logic (e.g. useFetch)."
+    },
+    {
+      "id": "rc-context",
+      "front": "What is React Context for?",
+      "back": "Sharing values (theme, user) deep in the tree without \"prop drilling\"."
+    },
+    {
+      "id": "rc-oneway",
+      "front": "What is one-way data flow?",
+      "back": "Data flows parent → child via props; children signal up via callbacks."
+    },
+    {
+      "id": "rc-reactmemo",
+      "front": "What does React.memo do?",
+      "back": "Skips re-rendering a component when its props haven't changed."
+    },
+    {
+      "id": "rc-errboundary",
+      "front": "What is an error boundary?",
+      "back": "A component that catches render errors in its children and shows a fallback UI."
+    }
+  ]
+}

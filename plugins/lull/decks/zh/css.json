@@ -1,0 +1,121 @@
+{
+  "stack": "css",
+  "name": "CSS",
+  "cards": [
+    {
+      "id": "css-spec",
+      "front": "优先级怎么排?",
+      "back": "内联 > id > 类/属性/伪类 > 元素;同级看后写的。"
+    },
+    {
+      "id": "css-box",
+      "front": "box-sizing: border-box?",
+      "back": "宽高含 padding 和 border,元素保持你设的尺寸。"
+    },
+    {
+      "id": "css-flexgrid",
+      "front": "Flexbox 和 Grid?",
+      "back": "Flexbox 管一维(行或列);Grid 管二维。"
+    },
+    {
+      "id": "css-stack",
+      "front": "z-index 为何有时不灵?",
+      "back": "只在同一层叠上下文内有效;父级上下文会困住子级。"
+    },
+    {
+      "id": "css-emrem",
+      "front": "em 和 rem?",
+      "back": "em 相对元素自身字号(会叠加);rem 相对根字号。"
+    },
+    {
+      "id": "css-position",
+      "front": "relative 和 absolute?",
+      "back": "relative 相对自己原位偏移;absolute 相对最近的已定位祖先放置。"
+    },
+    {
+      "id": "css-center",
+      "front": "最快居中?",
+      "back": "父级:display:flex; align-items:center; justify-content:center。"
+    },
+    {
+      "id": "css-collapse",
+      "front": "外边距折叠?",
+      "back": "相邻的上下 margin 合并成较大的那个。"
+    },
+    {
+      "id": "css-important",
+      "front": "为何少用 !important?",
+      "back": "压过优先级又难撤,越加越多。应理顺优先级。"
+    },
+    {
+      "id": "css-media",
+      "front": "媒体查询?",
+      "back": "@media (max-width:600px){...} 按屏幕尺寸应用样式——响应式基础。"
+    },
+    {
+      "id": "css-display",
+      "front": "block / inline / inline-block?",
+      "back": "block 占整行;inline 随文字流(不能设宽高);inline-block 随文字流但可设尺寸。"
+    },
+    {
+      "id": "css-pseudoclass",
+      "front": "伪类是什么?",
+      "back": ":hover、:focus、:first-child——按状态或位置给元素加样式。"
+    },
+    {
+      "id": "css-pseudoel",
+      "front": "伪元素是什么?",
+      "back": "::before / ::after 插入生成内容;需要 content 属性。"
+    },
+    {
+      "id": "css-transition",
+      "front": "transition 干什么?",
+      "back": "让属性变化随时间平滑过渡:transition: opacity .2s。"
+    },
+    {
+      "id": "css-transform",
+      "front": "transform 适合做什么?",
+      "back": "平移/缩放/旋转且不影响布局——GPU 加速,很流畅。"
+    },
+    {
+      "id": "css-flexitem",
+      "front": "flex: 1 是什么意思?",
+      "back": "grow:1 shrink:1 basis:0 的简写——平均占据剩余空间。"
+    },
+    {
+      "id": "css-gap",
+      "front": "gap 干什么?",
+      "back": "给 flex/grid 子项之间加间距,不用逐个设 margin。"
+    },
+    {
+      "id": "css-overflow",
+      "front": "overflow 控制什么?",
+      "back": "超出盒子的内容怎么办:visible、hidden、scroll 或 auto。"
+    },
+    {
+      "id": "css-units",
+      "front": "% 和 vw/vh?",
+      "back": "% 相对父元素;vw/vh 相对视口宽/高。"
+    },
+    {
+      "id": "css-vars",
+      "front": "CSS 自定义属性?",
+      "back": "变量:--gap: 8px; 再 var(--gap)——可复用、可换主题的值。"
+    },
+    {
+      "id": "css-combinators",
+      "front": "> + ~ 是什么?",
+      "back": "> 直接子元素;+ 紧邻的下一个兄弟;~ 之后任意兄弟。"
+    },
+    {
+      "id": "css-inherit",
+      "front": "哪些属性会继承?",
+      "back": "多数文字相关的(color、font)继承;盒模型相关的(margin、border)不继承。"
+    },
+    {
+      "id": "css-rgba",
+      "front": "怎么设透明?",
+      "back": "用 rgba()/#RRGGBBAA 或 opacity;opacity 会让整个元素及子级一起变淡。"
+    }
+  ]
+}

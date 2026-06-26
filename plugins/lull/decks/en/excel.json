@@ -1,0 +1,121 @@
+{
+  "category": "excel",
+  "name": "Spreadsheets",
+  "cards": [
+    {
+      "id": "xl-absref",
+      "front": "What does $ do in a reference?",
+      "back": "Locks row/column when copying: $A$1 full, A$1 row, $A1 column."
+    },
+    {
+      "id": "xl-index",
+      "front": "INDEX/MATCH over VLOOKUP — why?",
+      "back": "It can look left, survives inserted columns, and is faster on big sheets."
+    },
+    {
+      "id": "xl-xlookup",
+      "front": "What is XLOOKUP?",
+      "back": "Modern lookup: any direction, default if not found, no column index."
+    },
+    {
+      "id": "xl-pivot",
+      "front": "What is a pivot table for?",
+      "back": "Summarize/regroup big tables (sum, count, avg by category) without formulas."
+    },
+    {
+      "id": "xl-sumifs",
+      "front": "What does SUMIFS do?",
+      "back": "Sums values meeting multiple conditions (e.g. March + East)."
+    },
+    {
+      "id": "xl-freeze",
+      "front": "What does freeze panes do?",
+      "back": "Keeps header rows/columns visible while scrolling."
+    },
+    {
+      "id": "xl-dupes",
+      "front": "Remove duplicate rows fast?",
+      "back": "Data → Remove Duplicates (pick key columns); copy first if unsure."
+    },
+    {
+      "id": "xl-text2col",
+      "front": "What is Text to Columns for?",
+      "back": "Split one column by a delimiter — great for messy pasted data."
+    },
+    {
+      "id": "xl-condformat",
+      "front": "What is conditional formatting?",
+      "back": "Auto-color cells by rule to spot patterns at a glance."
+    },
+    {
+      "id": "xl-shortcuts",
+      "front": "Two handy shortcuts?",
+      "back": "Ctrl+; inserts today; Ctrl+Shift+L toggles filters."
+    },
+    {
+      "id": "xl-iferror",
+      "front": "What does IFERROR do?",
+      "back": "Replaces error results (#N/A, #DIV/0!) with a value you choose, like \"\"."
+    },
+    {
+      "id": "xl-countif",
+      "front": "What does COUNTIF do?",
+      "back": "Counts cells meeting a condition; COUNTIFS handles several at once."
+    },
+    {
+      "id": "xl-textjoin",
+      "front": "How to combine text from cells?",
+      "back": "TEXTJOIN(delimiter, TRUE, range) — or & to glue a few together."
+    },
+    {
+      "id": "xl-trim",
+      "front": "Cleaning messy imported text?",
+      "back": "TRIM removes extra spaces; CLEAN strips nonprintable characters."
+    },
+    {
+      "id": "xl-table",
+      "front": "Why \"Format as Table\"?",
+      "back": "Auto-expands formulas/formatting and lets you use readable column names."
+    },
+    {
+      "id": "xl-validation",
+      "front": "How to make a dropdown cell?",
+      "back": "Data Validation → List — limits input to set choices and prevents typos."
+    },
+    {
+      "id": "xl-pastevalues",
+      "front": "Why \"paste values\"?",
+      "back": "It drops the formulas and keeps only the results — freezes a snapshot."
+    },
+    {
+      "id": "xl-flashfill",
+      "front": "What is Flash Fill?",
+      "back": "Type one example, Excel infers the pattern and fills the rest (Ctrl+E)."
+    },
+    {
+      "id": "xl-dates",
+      "front": "How does Excel store dates?",
+      "back": "As serial numbers, so you can subtract two dates to get days between."
+    },
+    {
+      "id": "xl-round",
+      "front": "ROUND vs display rounding?",
+      "back": "Formatting only hides decimals; ROUND() actually changes the stored value."
+    },
+    {
+      "id": "xl-substr",
+      "front": "Extract part of a text cell?",
+      "back": "LEFT/RIGHT/MID pull characters from the start/end/middle."
+    },
+    {
+      "id": "xl-absshortcut",
+      "front": "Fast way to add $ to a reference?",
+      "back": "Select the reference and press F4 to cycle $A$1 → A$1 → $A1 → A1."
+    },
+    {
+      "id": "xl-namedrange",
+      "front": "Why use named ranges?",
+      "back": "TaxRate is clearer than $B$1 and makes formulas readable and less error-prone."
+    }
+  ]
+}

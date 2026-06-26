@@ -1,0 +1,121 @@
+{
+  "stack": "react",
+  "name": "React",
+  "cards": [
+    {
+      "id": "rc-stale",
+      "front": "useEffect 陈旧闭包 bug?",
+      "back": "它捕获渲染当时的值;漏依赖就读旧值。把用到的值都列进依赖。"
+    },
+    {
+      "id": "rc-key",
+      "front": "列表为何要稳定 key?",
+      "back": "跨渲染对应每项;索引 key 在重排/插入时出错。"
+    },
+    {
+      "id": "rc-memo",
+      "front": "useMemo 和 useCallback?",
+      "back": "useMemo 缓存值;useCallback 缓存函数。"
+    },
+    {
+      "id": "rc-controlled",
+      "front": "受控 vs 非受控?",
+      "back": "受控:值来自 state;非受控:值在 DOM,用 ref 读。"
+    },
+    {
+      "id": "rc-cleanup",
+      "front": "useEffect 为何 return 函数?",
+      "back": "那是清理——下次副作用前和卸载时运行。"
+    },
+    {
+      "id": "rc-async",
+      "front": "为何 setState 像异步?",
+      "back": "React 批量、稍后重渲染,setState 后立即读还是旧值。"
+    },
+    {
+      "id": "rc-mutate",
+      "front": "为何不能直接改 state?",
+      "back": "React 比引用;原地改可能不更新。要造新对象。"
+    },
+    {
+      "id": "rc-lift",
+      "front": "什么是状态提升?",
+      "back": "把共享状态移到最近公共父组件再传下去。"
+    },
+    {
+      "id": "rc-ref",
+      "front": "何时用 useRef?",
+      "back": "要跨渲染保存又不触发重渲染的值,或拿 DOM 节点。"
+    },
+    {
+      "id": "rc-fragment",
+      "front": "为何用 Fragment?",
+      "back": "返回多个元素又不多套一层 div。"
+    },
+    {
+      "id": "rc-props-state",
+      "front": "props 和 state?",
+      "back": "props 由父组件传入(只读);state 由组件自己拥有和修改。"
+    },
+    {
+      "id": "rc-props-ro",
+      "front": "组件能改自己的 props 吗?",
+      "back": "不能——props 只读。要改就提升状态或用回调 prop。"
+    },
+    {
+      "id": "rc-usestate",
+      "front": "useState 返回什么?",
+      "back": "一对:当前值和设值函数——const [n, setN] = useState(0)。"
+    },
+    {
+      "id": "rc-conditional",
+      "front": "怎么条件渲染?",
+      "back": "在 JSX 用 && 或三元:{isOpen && <Menu/>} 或 {x ? <A/> : <B/>}。"
+    },
+    {
+      "id": "rc-map",
+      "front": "怎么渲染列表?",
+      "back": "把数据 map 成元素:items.map(i => <li key={i.id}>{i.name}</li>)。"
+    },
+    {
+      "id": "rc-handler",
+      "front": "onClick={fn} 和 onClick={fn()}?",
+      "back": "传函数,别调用它——加 () 会在渲染时立刻执行。"
+    },
+    {
+      "id": "rc-derived",
+      "front": "该把 props 复制进 state 吗?",
+      "back": "通常不——派生值在渲染时算,避免它变旧。"
+    },
+    {
+      "id": "rc-empty-deps",
+      "front": "useEffect 依赖 [] 是什么?",
+      "back": "挂载后只跑一次(卸载时清理)。"
+    },
+    {
+      "id": "rc-custom-hook",
+      "front": "自定义 hook 是什么?",
+      "back": "以 use 开头、封装 hook 逻辑的可复用函数(如 useFetch)。"
+    },
+    {
+      "id": "rc-context",
+      "front": "React Context 干什么?",
+      "back": "跨多层共享值(主题、用户),避免一层层传 prop。"
+    },
+    {
+      "id": "rc-oneway",
+      "front": "单向数据流是什么?",
+      "back": "数据由父到子经 props 流动;子通过回调向上反馈。"
+    },
+    {
+      "id": "rc-reactmemo",
+      "front": "React.memo 干什么?",
+      "back": "当 props 没变时跳过该组件的重渲染。"
+    },
+    {
+      "id": "rc-errboundary",
+      "front": "错误边界是什么?",
+      "back": "捕获子组件渲染错误、显示兜底 UI 的组件。"
+    }
+  ]
+}

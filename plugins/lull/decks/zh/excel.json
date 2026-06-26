@@ -1,0 +1,121 @@
+{
+  "category": "excel",
+  "name": "Spreadsheets",
+  "cards": [
+    {
+      "id": "xl-absref",
+      "front": "引用里的 $ 有什么用?",
+      "back": "复制时锁定:$A$1 全锁、A$1 锁行、$A1 锁列。"
+    },
+    {
+      "id": "xl-index",
+      "front": "为何 INDEX/MATCH 优于 VLOOKUP?",
+      "back": "能向左查、插列不错位、大表更快。"
+    },
+    {
+      "id": "xl-xlookup",
+      "front": "XLOOKUP 是什么?",
+      "back": "现代查找:任意方向、找不到给默认值、不用列号。"
+    },
+    {
+      "id": "xl-pivot",
+      "front": "数据透视表干什么?",
+      "back": "不写公式就汇总/重组大表(按类别求和、计数、平均)。"
+    },
+    {
+      "id": "xl-sumifs",
+      "front": "SUMIFS 干什么?",
+      "back": "对满足多条件的值求和(如\"3月+华东\")。"
+    },
+    {
+      "id": "xl-freeze",
+      "front": "冻结窗格?",
+      "back": "滚动时让表头行/列一直可见。"
+    },
+    {
+      "id": "xl-dupes",
+      "front": "快速删重复行?",
+      "back": "数据→删除重复项(选关键列);怕误删先复制。"
+    },
+    {
+      "id": "xl-text2col",
+      "front": "分列干什么?",
+      "back": "按分隔符把一列拆成多列——清理乱数据好用。"
+    },
+    {
+      "id": "xl-condformat",
+      "front": "条件格式?",
+      "back": "按规则自动上色,一眼看出规律。"
+    },
+    {
+      "id": "xl-shortcuts",
+      "front": "两个顺手快捷键?",
+      "back": "Ctrl+; 插入今天;Ctrl+Shift+L 开关筛选。"
+    },
+    {
+      "id": "xl-iferror",
+      "front": "IFERROR 干什么?",
+      "back": "把出错结果(#N/A、#DIV/0!)换成你指定的值,比如空串。"
+    },
+    {
+      "id": "xl-countif",
+      "front": "COUNTIF 干什么?",
+      "back": "统计满足条件的单元格数;COUNTIFS 可同时多个条件。"
+    },
+    {
+      "id": "xl-textjoin",
+      "front": "怎么拼接单元格文字?",
+      "back": "TEXTJOIN(分隔符, TRUE, 区域)——少量用 & 直接连。"
+    },
+    {
+      "id": "xl-trim",
+      "front": "清理导入的乱文本?",
+      "back": "TRIM 去多余空格;CLEAN 去掉不可打印字符。"
+    },
+    {
+      "id": "xl-table",
+      "front": "为何\"套用表格格式\"?",
+      "back": "公式/格式自动扩展,还能用可读的列名引用。"
+    },
+    {
+      "id": "xl-validation",
+      "front": "怎么做下拉单元格?",
+      "back": "数据验证→序列——限定可选项,防打错。"
+    },
+    {
+      "id": "xl-pastevalues",
+      "front": "为何\"粘贴为值\"?",
+      "back": "去掉公式只留结果——把数据定格成快照。"
+    },
+    {
+      "id": "xl-flashfill",
+      "front": "快速填充是什么?",
+      "back": "打一个示例,Excel 猜出规律填完其余(Ctrl+E)。"
+    },
+    {
+      "id": "xl-dates",
+      "front": "Excel 怎么存日期?",
+      "back": "存成序列数,所以两个日期相减就能得到相差天数。"
+    },
+    {
+      "id": "xl-round",
+      "front": "ROUND 和\"显示取整\"区别?",
+      "back": "格式只是隐藏小数;ROUND() 真正改变存储的值。"
+    },
+    {
+      "id": "xl-substr",
+      "front": "取文本的一部分?",
+      "back": "LEFT/RIGHT/MID 从开头/结尾/中间取字符。"
+    },
+    {
+      "id": "xl-absshortcut",
+      "front": "快速给引用加 $?",
+      "back": "选中引用按 F4,循环 $A$1 → A$1 → $A1 → A1。"
+    },
+    {
+      "id": "xl-namedrange",
+      "front": "为何用命名区域?",
+      "back": "TaxRate 比 $B$1 清楚,公式更易读、更不易错。"
+    }
+  ]
+}

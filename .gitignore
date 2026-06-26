@@ -1,0 +1,19 @@
+node_modules/
+*.log
+*.zip
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# open-core: never publish the paid module or vendor-only tooling
+pro/
+dist/
+tools/issue-license.js
+tools/keygen.js
+tools/build-pro.ps1
+tools/VENDOR.md
+
+# internal docs (monetization strategy / history) — keep local, not public
+PROJECT_CONTEXT.md
+DEVELOPMENT_PLAN.md

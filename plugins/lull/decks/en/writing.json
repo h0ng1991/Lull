@@ -1,0 +1,126 @@
+{
+  "category": "writing",
+  "name": "Writing & Comms",
+  "cards": [
+    {
+      "id": "wr-bluf",
+      "front": "How should a work email/report open?",
+      "back": "Lead with the conclusion or your ask, then reasons. Readers are busy — point first (BLUF)."
+    },
+    {
+      "id": "wr-sbi",
+      "front": "How to give feedback that lands?",
+      "back": "Use SBI: Situation + Behavior + Impact — facts and effect, not character."
+    },
+    {
+      "id": "wr-active",
+      "front": "Why prefer active voice?",
+      "back": "It names the actor and is shorter: \"we shipped it\" > \"it was shipped\"."
+    },
+    {
+      "id": "wr-filler",
+      "front": "One quick way to tighten prose?",
+      "back": "Cut filler: \"in order to\"→\"to\", \"due to the fact that\"→\"because\"."
+    },
+    {
+      "id": "wr-subject",
+      "front": "What makes a good email subject?",
+      "back": "Specific + actionable: \"Need sign-off on X by Fri\", not \"Quick question\"."
+    },
+    {
+      "id": "wr-oneask",
+      "front": "How many asks per email?",
+      "back": "Ideally one; multiple get half-answered. Split them or use a numbered list."
+    },
+    {
+      "id": "wr-no",
+      "front": "How to say no politely at work?",
+      "back": "Acknowledge, decline clearly, offer an alternative or trade-off."
+    },
+    {
+      "id": "wr-notes",
+      "front": "What belongs in meeting notes?",
+      "back": "Decisions, owners, and dated next steps — not a transcript."
+    },
+    {
+      "id": "wr-aloud",
+      "front": "A simple proofreading trick?",
+      "back": "Read it aloud — your ear catches clunky phrasing and missing words."
+    },
+    {
+      "id": "wr-tldr",
+      "front": "Long message — help the reader how?",
+      "back": "Put a one-line TL;DR at the top with the point and any action."
+    },
+    {
+      "id": "wr-pyramid",
+      "front": "What is the pyramid principle?",
+      "back": "Answer first, then group supporting points beneath it — top-down, not a slow build-up."
+    },
+    {
+      "id": "wr-concrete",
+      "front": "Concrete vs abstract writing?",
+      "back": "Specifics persuade: \"cut load time from 8s to 2s\" beats \"improved performance\"."
+    },
+    {
+      "id": "wr-verbs",
+      "front": "Why prefer strong verbs?",
+      "back": "\"decide\" beats \"make a decision\" — verb+noun padding weakens and lengthens."
+    },
+    {
+      "id": "wr-parallel",
+      "front": "What is parallel structure?",
+      "back": "Keep list items the same grammatical form — all verbs or all nouns — for readability."
+    },
+    {
+      "id": "wr-cta",
+      "front": "What makes a clear call to action?",
+      "back": "State exactly what to do and by when: \"Reply with approval by Thu 5pm\"."
+    },
+    {
+      "id": "wr-scannable",
+      "front": "How to make text scannable?",
+      "back": "Short paragraphs, bullets, and bold key phrases — most people skim first."
+    },
+    {
+      "id": "wr-jargon",
+      "front": "Writing for a mixed audience?",
+      "back": "Drop or define jargon; assume one less expert reader than you think."
+    },
+    {
+      "id": "wr-sowhat",
+      "front": "What is the \"so what?\" test?",
+      "back": "After each point, ask \"so what?\"; if there's no answer, cut it."
+    },
+    {
+      "id": "wr-short",
+      "front": "Why favor short sentences?",
+      "back": "One idea per sentence is easier to follow; break long ones at the \"and\"/\"but\"."
+    },
+    {
+      "id": "wr-positive",
+      "front": "Phrase instructions how?",
+      "back": "Say what to do, not just what to avoid — positive instructions are clearer."
+    },
+    {
+      "id": "wr-tone",
+      "front": "How to set the right tone?",
+      "back": "Match formality to reader and channel; chat ≠ a client email."
+    },
+    {
+      "id": "wr-editpass",
+      "front": "Write and edit at once?",
+      "back": "No — draft fast, then edit separately. Mixing both stalls you."
+    },
+    {
+      "id": "wr-frontload",
+      "front": "Where to put the key word in a heading?",
+      "back": "Up front: \"Refund policy — 30 days\" beats \"Our policy on refunds\"."
+    },
+    {
+      "id": "wr-numbers",
+      "front": "Vague claim — how to fix it?",
+      "back": "Add a number or example: \"saves time\" → \"saves ~2 hours a week\"."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "stack": "node",
+  "name": "Node",
+  "cards": [
+    {
+      "id": "nd-loop",
+      "front": "为何别阻塞事件循环?",
+      "back": "JS 单线程,长同步任务冻住所有请求。"
+    },
+    {
+      "id": "nd-cjs-esm",
+      "front": "CommonJS 和 ESM?",
+      "back": "CJS:require,同步;ESM:import,异步、可静态分析。"
+    },
+    {
+      "id": "nd-streams",
+      "front": "为何用流?",
+      "back": "带背压地分块处理,而非全读进内存。"
+    },
+    {
+      "id": "nd-tick",
+      "front": "nextTick 和 setImmediate?",
+      "back": "nextTick 在下阶段前执行(滥用饿死 I/O);setImmediate 在 check 阶段。"
+    },
+    {
+      "id": "nd-async",
+      "front": "为何用 async/await?",
+      "back": "从上往下读、try/catch 处理错误、无回调地狱。"
+    },
+    {
+      "id": "nd-lock",
+      "front": "package.json 和 lock?",
+      "back": "json 写想要的范围;lock 锁定精确版本,可复现安装。"
+    },
+    {
+      "id": "nd-env",
+      "front": "密钥怎么管?",
+      "back": "从 process.env 读(常用 .env);别硬编码。"
+    },
+    {
+      "id": "nd-npx",
+      "front": "npm 和 npx?",
+      "back": "npm 装/管理;npx 直接跑包命令,不用全局装。"
+    },
+    {
+      "id": "nd-errfirst",
+      "front": "错误优先回调?",
+      "back": "(err, result),先判 err。现代代码偏好 promise。"
+    },
+    {
+      "id": "nd-dirname",
+      "front": "__dirname?",
+      "back": "当前模块所在文件夹路径——用它拼可靠路径。"
+    },
+    {
+      "id": "nd-scripts",
+      "front": "npm scripts 是什么?",
+      "back": "package.json 里的命名命令,用 npm run <名> 跑——任务快捷方式。"
+    },
+    {
+      "id": "nd-semver",
+      "front": "版本里的 ^ 和 ~?",
+      "back": "^1.2.3 允许次版本+补丁更新;~1.2.3 只允许补丁。"
+    },
+    {
+      "id": "nd-modules-ignore",
+      "front": "为何忽略 node_modules?",
+      "back": "它大且可由 package.json/lock 重建——提交后者,别提交文件夹。"
+    },
+    {
+      "id": "nd-fs",
+      "front": "fs 同步 vs 异步?",
+      "back": "readFileSync 阻塞事件循环;服务端优先用异步 fs.promises。"
+    },
+    {
+      "id": "nd-json",
+      "front": "JSON.parse 和 stringify?",
+      "back": "parse 把 JSON 串转对象;stringify 反过来。"
+    },
+    {
+      "id": "nd-pathjoin",
+      "front": "为何用 path.join?",
+      "back": "它在各系统用正确分隔符拼路径——别硬写 \"/\"。"
+    },
+    {
+      "id": "nd-cluster",
+      "front": "Node 怎么用满 CPU?",
+      "back": "单进程只用一核;用 cluster 或 worker_threads 扩展 CPU 任务。"
+    },
+    {
+      "id": "nd-exit",
+      "front": "退出码是什么?",
+      "back": "0 表示成功,非 0 表示失败——脚本和 CI 据此判断。"
+    },
+    {
+      "id": "nd-unhandled",
+      "front": "为何要处理 promise 拒绝?",
+      "back": "未处理的拒绝可能让进程崩溃;务必 .catch 或 try/catch await。"
+    },
+    {
+      "id": "nd-nodeenv",
+      "front": "NODE_ENV 是什么?",
+      "back": "约定的环境变量(\"production\"/\"development\"),用来切换行为和优化。"
+    },
+    {
+      "id": "nd-exports",
+      "front": "module.exports 和 exports?",
+      "back": "exports 是别名快捷方式;重新赋值它会断开关联——要设 module.exports。"
+    },
+    {
+      "id": "nd-buffer",
+      "front": "Buffer 是什么?",
+      "back": "一段定长的原始二进制字节——Node 处理文件、网络数据的方式。"
+    },
+    {
+      "id": "nd-devdep",
+      "front": "dependencies 和 devDependencies?",
+      "back": "deps 运行时需要;devDeps(测试、构建工具)只在开发时用。"
+    }
+  ]
+}

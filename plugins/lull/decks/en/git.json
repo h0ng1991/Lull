@@ -1,0 +1,121 @@
+{
+  "stack": "git",
+  "name": "Git",
+  "cards": [
+    {
+      "id": "gt-rebase",
+      "front": "Rebase vs merge?",
+      "back": "Merge keeps both histories + a merge commit; rebase replays for a linear history (rewrites hashes)."
+    },
+    {
+      "id": "gt-reset",
+      "front": "reset --soft/--mixed/--hard?",
+      "back": "soft keeps index+files; mixed resets index; hard discards file changes too."
+    },
+    {
+      "id": "gt-stash",
+      "front": "What is git stash?",
+      "back": "Shelve uncommitted changes for a clean tree; \"stash pop\" brings them back."
+    },
+    {
+      "id": "gt-detached",
+      "front": "What is detached HEAD?",
+      "back": "HEAD points at a commit, not a branch; new commits can be lost. Make a branch."
+    },
+    {
+      "id": "gt-fetchpull",
+      "front": "fetch vs pull?",
+      "back": "fetch downloads remote changes; pull = fetch + merge into your branch."
+    },
+    {
+      "id": "gt-cherry",
+      "front": "What is cherry-pick?",
+      "back": "Copy one specific commit onto your branch without merging the whole source."
+    },
+    {
+      "id": "gt-ignore",
+      "front": "What does .gitignore do?",
+      "back": "Tells git which files never to track; already-tracked files aren't affected."
+    },
+    {
+      "id": "gt-amend",
+      "front": "What does commit --amend do?",
+      "back": "Replaces the last commit; avoid on already-pushed commits."
+    },
+    {
+      "id": "gt-revert",
+      "front": "revert vs reset?",
+      "back": "revert adds a new undo commit (safe for shared history); reset moves the pointer back."
+    },
+    {
+      "id": "gt-branch",
+      "front": "Branch vs tag?",
+      "back": "A branch moves as you commit; a tag is a fixed label on one commit (a release)."
+    },
+    {
+      "id": "gt-addp",
+      "front": "What does git add -p do?",
+      "back": "Stages changes hunk by hunk, so you can split one file into focused commits."
+    },
+    {
+      "id": "gt-headtilde",
+      "front": "What does HEAD~1 mean?",
+      "back": "The commit one before HEAD; HEAD~2 is two back — handy for reset/rebase."
+    },
+    {
+      "id": "gt-conflict",
+      "front": "How to resolve a merge conflict?",
+      "back": "Edit the <<<< ==== >>>> markers to the desired result, then add and commit."
+    },
+    {
+      "id": "gt-logoneline",
+      "front": "See history compactly?",
+      "back": "git log --oneline shows one line per commit — quick overview."
+    },
+    {
+      "id": "gt-diffstaged",
+      "front": "See what you're about to commit?",
+      "back": "git diff --staged shows staged changes; git diff shows unstaged."
+    },
+    {
+      "id": "gt-remote",
+      "front": "What is \"origin\"?",
+      "back": "The default name for your main remote repo (e.g. on GitHub)."
+    },
+    {
+      "id": "gt-upstream",
+      "front": "What does push -u do?",
+      "back": "Sets the upstream so future \"git push/pull\" need no arguments."
+    },
+    {
+      "id": "gt-blame",
+      "front": "What is git blame?",
+      "back": "Shows who last changed each line and in which commit — for tracing history."
+    },
+    {
+      "id": "gt-squash",
+      "front": "What is squashing commits?",
+      "back": "Combining several commits into one (via rebase -i) for a cleaner history."
+    },
+    {
+      "id": "gt-clonefork",
+      "front": "Clone vs fork?",
+      "back": "Clone copies a repo locally; fork makes your own server-side copy (e.g. on GitHub)."
+    },
+    {
+      "id": "gt-restore",
+      "front": "Undo changes to one file?",
+      "back": "git restore <file> discards its unstaged changes (was git checkout -- <file>)."
+    },
+    {
+      "id": "gt-commitmsg",
+      "front": "What makes a good commit message?",
+      "back": "A short imperative summary (\"Fix login crash\"), details in the body if needed."
+    },
+    {
+      "id": "gt-forcedanger",
+      "front": "Why is git push --force risky?",
+      "back": "It can overwrite others' commits on a shared branch; prefer --force-with-lease."
+    }
+  ]
+}

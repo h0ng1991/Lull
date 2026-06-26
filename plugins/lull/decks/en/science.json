@@ -1,0 +1,121 @@
+{
+  "category": "science",
+  "name": "Science Bites",
+  "cards": [
+    {
+      "id": "sc-sky",
+      "front": "Why is the sky blue?",
+      "back": "Air scatters shorter blue wavelengths more (Rayleigh scattering)."
+    },
+    {
+      "id": "sc-thunder",
+      "front": "Why lightning before thunder?",
+      "back": "Light is far faster than sound — ~3 s delay per km."
+    },
+    {
+      "id": "sc-microwave",
+      "front": "How does a microwave heat food?",
+      "back": "It vibrates water molecules; watery parts warm first."
+    },
+    {
+      "id": "sc-onion",
+      "front": "Why do onions make you cry?",
+      "back": "Cutting releases a sulfur gas that irritates the eyes."
+    },
+    {
+      "id": "sc-ice",
+      "front": "Why does ice float?",
+      "back": "Water expands when frozen, so ice is less dense than liquid water."
+    },
+    {
+      "id": "sc-seasons",
+      "front": "What causes seasons?",
+      "back": "Earth's tilt, not its distance from the sun."
+    },
+    {
+      "id": "sc-orbit",
+      "front": "Why doesn't the Moon fall?",
+      "back": "It does — but moves sideways fast enough to keep missing (an orbit)."
+    },
+    {
+      "id": "sc-metal",
+      "front": "Why does metal feel colder than wood?",
+      "back": "It conducts heat from your hand faster, at the same temperature."
+    },
+    {
+      "id": "sc-salt",
+      "front": "Why is the ocean salty?",
+      "back": "Rivers carry dissolved minerals to the sea, concentrated by evaporation."
+    },
+    {
+      "id": "sc-rainbow",
+      "front": "What makes a rainbow?",
+      "back": "Raindrops bend and split sunlight into colors at a fixed angle."
+    },
+    {
+      "id": "sc-vacuum-fall",
+      "front": "Do heavy things fall faster?",
+      "back": "No — in a vacuum a feather and a hammer fall together; air resistance causes the difference."
+    },
+    {
+      "id": "sc-daynight",
+      "front": "What causes day and night?",
+      "back": "Earth spinning on its axis, not the sun moving around us."
+    },
+    {
+      "id": "sc-moonphase",
+      "front": "What causes moon phases?",
+      "back": "How much of the sunlit side faces us — not Earth's shadow."
+    },
+    {
+      "id": "sc-tides",
+      "front": "What causes tides?",
+      "back": "The Moon's gravity pulling on the oceans (the Sun helps too)."
+    },
+    {
+      "id": "sc-space-sound",
+      "front": "Why is space silent?",
+      "back": "Sound needs a medium; space is near-vacuum, so it can't travel."
+    },
+    {
+      "id": "sc-sweat",
+      "front": "How does sweating cool you?",
+      "back": "Evaporating water carries heat away from your skin."
+    },
+    {
+      "id": "sc-bread",
+      "front": "Why does bread rise?",
+      "back": "Yeast eats sugar and releases CO2 bubbles that get trapped in the dough."
+    },
+    {
+      "id": "sc-rust",
+      "front": "What is rust?",
+      "back": "Iron reacting with oxygen and water over time forms iron oxide."
+    },
+    {
+      "id": "sc-photosynthesis",
+      "front": "What is photosynthesis?",
+      "back": "Plants use sunlight to turn CO2 and water into sugar, releasing oxygen."
+    },
+    {
+      "id": "sc-static",
+      "front": "What is a static shock?",
+      "back": "Built-up electrons jumping to balance charge between you and an object."
+    },
+    {
+      "id": "sc-mirage",
+      "front": "What causes a road mirage?",
+      "back": "Light bending through hot air near the ground looks like a reflective puddle."
+    },
+    {
+      "id": "sc-fever",
+      "front": "Why do we get a fever?",
+      "back": "A higher temperature helps the immune system fight infection — it's a defense."
+    },
+    {
+      "id": "sc-redblue-star",
+      "front": "Are red or blue stars hotter?",
+      "back": "Blue stars are hotter; red are cooler — color reveals temperature."
+    }
+  ]
+}

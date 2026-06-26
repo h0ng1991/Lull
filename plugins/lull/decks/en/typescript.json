@@ -1,0 +1,121 @@
+{
+  "stack": "typescript",
+  "name": "TypeScript",
+  "cards": [
+    {
+      "id": "ts-any-unknown",
+      "front": "any vs unknown?",
+      "back": "Both accept anything, but unknown forces a check before use; any disables checking."
+    },
+    {
+      "id": "ts-type-interface",
+      "front": "type vs interface?",
+      "back": "interface extends/merges (object shapes); type also does unions, tuples, mapped types."
+    },
+    {
+      "id": "ts-asconst",
+      "front": "What does \"as const\" do?",
+      "back": "Freezes a literal to its narrowest readonly type — handy for unions/tuples."
+    },
+    {
+      "id": "ts-never",
+      "front": "When is never useful?",
+      "back": "Exhaustiveness checks: a missed union case fails to compile."
+    },
+    {
+      "id": "ts-narrow",
+      "front": "What is type narrowing?",
+      "back": "Checks (typeof, in, ===) shrink a union so each branch knows the precise type."
+    },
+    {
+      "id": "ts-optional",
+      "front": "What do ?. and ?? do?",
+      "back": "?. safely accesses maybe-null paths; ?? gives a default only for null/undefined."
+    },
+    {
+      "id": "ts-generics",
+      "front": "Why use generics?",
+      "back": "They keep type info flowing: identity<T>(x:T):T preserves the caller's type."
+    },
+    {
+      "id": "ts-readonly",
+      "front": "What does readonly do?",
+      "back": "Marks a property/array immutable at compile time."
+    },
+    {
+      "id": "ts-typeof",
+      "front": "type space vs value space?",
+      "back": "typeof in a type context reads a value's type; a name can be both."
+    },
+    {
+      "id": "ts-strictnull",
+      "front": "What does strictNullChecks add?",
+      "back": "null/undefined stop being assignable to everything — handle them explicitly."
+    },
+    {
+      "id": "ts-union",
+      "front": "What is a union type?",
+      "back": "A value that can be one of several types: string | number."
+    },
+    {
+      "id": "ts-literal",
+      "front": "What is a literal type?",
+      "back": "A type that is one exact value, e.g. \"GET\" | \"POST\" instead of string."
+    },
+    {
+      "id": "ts-enum",
+      "front": "enum vs union of literals?",
+      "back": "Union of string literals is simpler and tree-shakeable; enums add runtime code."
+    },
+    {
+      "id": "ts-tuple",
+      "front": "What is a tuple?",
+      "back": "A fixed-length array with known types per position: [string, number]."
+    },
+    {
+      "id": "ts-guard",
+      "front": "What is a type guard?",
+      "back": "A function returning \"x is T\" that narrows a type for the compiler."
+    },
+    {
+      "id": "ts-utility",
+      "front": "What are Partial/Pick/Omit?",
+      "back": "Built-in utility types that transform a type: make fields optional, keep, or drop them."
+    },
+    {
+      "id": "ts-keyof",
+      "front": "What does keyof do?",
+      "back": "Gives a union of an object type's keys: keyof {a;b} is \"a\" | \"b\"."
+    },
+    {
+      "id": "ts-record",
+      "front": "What is Record<K,V>?",
+      "back": "A type for an object with keys K and values V: Record<string, number>."
+    },
+    {
+      "id": "ts-nonnull",
+      "front": "What does the ! (non-null) do?",
+      "back": "Tells TS a value isn't null/undefined — use sparingly, it can lie."
+    },
+    {
+      "id": "ts-assert",
+      "front": "Is \"as\" (type assertion) safe?",
+      "back": "It overrides the checker without runtime checks — can hide real bugs. Prefer narrowing."
+    },
+    {
+      "id": "ts-discriminated",
+      "front": "What is a discriminated union?",
+      "back": "A union of objects sharing a literal tag (kind) so TS can narrow by it."
+    },
+    {
+      "id": "ts-infer",
+      "front": "Should you annotate every type?",
+      "back": "No — let TS infer obvious ones; annotate function params and public APIs."
+    },
+    {
+      "id": "ts-void",
+      "front": "void vs undefined?",
+      "back": "void is the type of a function that returns nothing; undefined is a specific value."
+    }
+  ]
+}

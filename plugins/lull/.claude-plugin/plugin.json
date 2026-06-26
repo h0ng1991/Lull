@@ -1,0 +1,7 @@
+{
+  "name": "lull",
+  "version": "0.1.0",
+  "description": "Contextual micro-learning in the AI-agent wait: one active-recall flashcard per substantive turn — the question appears when the agent starts thinking, the answer is revealed when the work is done.",
+  "author": { "name": "ph199" },
+  "keywords": ["learning", "flashcards", "spaced-repetition", "productivity", "wait-time", "active-recall"]
+}

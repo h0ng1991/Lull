@@ -1,0 +1,121 @@
+{
+  "category": "psychology",
+  "name": "Mind & Thinking",
+  "cards": [
+    {
+      "id": "ps-sunkcost",
+      "front": "The sunk-cost trap?",
+      "back": "Unrecoverable past cost shouldn't drive decisions — weigh only future value."
+    },
+    {
+      "id": "ps-dunning",
+      "front": "The Dunning-Kruger effect?",
+      "back": "Low skill → overconfidence; the competent are often more cautious."
+    },
+    {
+      "id": "ps-confirmation",
+      "front": "Confirmation bias?",
+      "back": "We favor evidence fitting our beliefs and ignore the rest."
+    },
+    {
+      "id": "ps-anchoring",
+      "front": "Anchoring?",
+      "back": "The first number seen skews later judgments."
+    },
+    {
+      "id": "ps-loss",
+      "front": "Loss aversion?",
+      "back": "Losing hurts ~twice as much as gaining feels good."
+    },
+    {
+      "id": "ps-availability",
+      "front": "Availability heuristic?",
+      "back": "We judge likelihood by how easily examples come to mind, not real odds."
+    },
+    {
+      "id": "ps-spotlight",
+      "front": "The spotlight effect?",
+      "back": "We overestimate how much others notice us."
+    },
+    {
+      "id": "ps-attribution",
+      "front": "Fundamental attribution error?",
+      "back": "We blame others' character but our own slips on circumstances."
+    },
+    {
+      "id": "ps-presentbias",
+      "front": "Present bias?",
+      "back": "We overvalue immediate rewards over bigger later ones."
+    },
+    {
+      "id": "ps-mindset",
+      "front": "Growth vs fixed mindset?",
+      "back": "Fixed: ability is innate. Growth: ability grows with effort."
+    },
+    {
+      "id": "ps-zeigarnik",
+      "front": "The Zeigarnik effect?",
+      "back": "Unfinished tasks nag at memory; writing them down quiets the loop."
+    },
+    {
+      "id": "ps-framing",
+      "front": "The framing effect?",
+      "back": "Wording sways choices: \"90% lean\" feels better than \"10% fat\"."
+    },
+    {
+      "id": "ps-socialproof",
+      "front": "Social proof?",
+      "back": "We copy what others do, especially when unsure — \"best seller\" works for this."
+    },
+    {
+      "id": "ps-halo",
+      "front": "The halo effect?",
+      "back": "One good trait (e.g. attractiveness) makes us assume other unrelated virtues."
+    },
+    {
+      "id": "ps-negativity",
+      "front": "Negativity bias?",
+      "back": "Bad events hit harder and stick longer than good ones of equal size."
+    },
+    {
+      "id": "ps-planning",
+      "front": "The planning fallacy?",
+      "back": "We underestimate how long tasks take; pad estimates and use past data."
+    },
+    {
+      "id": "ps-flow",
+      "front": "What is flow?",
+      "back": "Deep absorption when challenge roughly matches skill — too easy bores, too hard stresses."
+    },
+    {
+      "id": "ps-habit",
+      "front": "The habit loop?",
+      "back": "Cue → routine → reward. Change a habit by keeping the cue/reward, swapping the routine."
+    },
+    {
+      "id": "ps-reciprocity",
+      "front": "The reciprocity norm?",
+      "back": "We feel obliged to return favors — why free samples drive sales."
+    },
+    {
+      "id": "ps-dissonance",
+      "front": "Cognitive dissonance?",
+      "back": "Holding conflicting beliefs feels bad, so we rationalize to reduce the tension."
+    },
+    {
+      "id": "ps-survivorship",
+      "front": "Survivorship bias?",
+      "back": "Studying only winners hides the failures, skewing conclusions."
+    },
+    {
+      "id": "ps-decoy",
+      "front": "The decoy effect?",
+      "back": "Adding a worse-priced option nudges you toward the target one."
+    },
+    {
+      "id": "ps-fresh-start",
+      "front": "The fresh-start effect?",
+      "back": "Mondays, birthdays, New Year boost motivation to start new habits — use them."
+    }
+  ]
+}

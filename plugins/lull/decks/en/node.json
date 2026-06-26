@@ -1,0 +1,121 @@
+{
+  "stack": "node",
+  "name": "Node",
+  "cards": [
+    {
+      "id": "nd-loop",
+      "front": "Why not block the event loop?",
+      "back": "JS is single-threaded; a long sync task freezes all requests."
+    },
+    {
+      "id": "nd-cjs-esm",
+      "front": "CommonJS vs ES Modules?",
+      "back": "CJS: require, sync. ESM: import, async, static analysis."
+    },
+    {
+      "id": "nd-streams",
+      "front": "Why use streams?",
+      "back": "Process data in chunks with backpressure instead of all in memory."
+    },
+    {
+      "id": "nd-tick",
+      "front": "nextTick vs setImmediate?",
+      "back": "nextTick runs before the next phase (can starve I/O); setImmediate in the check phase."
+    },
+    {
+      "id": "nd-async",
+      "front": "Why async/await over callbacks?",
+      "back": "Reads top-down, errors via try/catch, no callback hell."
+    },
+    {
+      "id": "nd-lock",
+      "front": "package.json vs lock?",
+      "back": "json lists wanted ranges; lock pins exact versions for reproducible installs."
+    },
+    {
+      "id": "nd-env",
+      "front": "How to handle secrets?",
+      "back": "Read from process.env (often a .env file); never hardcode them."
+    },
+    {
+      "id": "nd-npx",
+      "front": "npm vs npx?",
+      "back": "npm installs/manages; npx runs a package binary without global install."
+    },
+    {
+      "id": "nd-errfirst",
+      "front": "Error-first callbacks?",
+      "back": "(err, result) — check err first. Modern code prefers promises."
+    },
+    {
+      "id": "nd-dirname",
+      "front": "What is __dirname?",
+      "back": "The current module's folder path — build reliable file paths with it."
+    },
+    {
+      "id": "nd-scripts",
+      "front": "What are npm scripts?",
+      "back": "Named commands in package.json run with npm run <name> — your task shortcuts."
+    },
+    {
+      "id": "nd-semver",
+      "front": "What do ^ and ~ mean in versions?",
+      "back": "^1.2.3 allows minor+patch updates; ~1.2.3 allows patch only."
+    },
+    {
+      "id": "nd-modules-ignore",
+      "front": "Why gitignore node_modules?",
+      "back": "It's large and rebuildable from package.json/lock — commit those, not the folder."
+    },
+    {
+      "id": "nd-fs",
+      "front": "fs sync vs async?",
+      "back": "readFileSync blocks the loop; prefer async fs.promises in servers."
+    },
+    {
+      "id": "nd-json",
+      "front": "JSON.parse vs stringify?",
+      "back": "parse turns a JSON string into an object; stringify does the reverse."
+    },
+    {
+      "id": "nd-pathjoin",
+      "front": "Why use path.join?",
+      "back": "It builds paths with the right separator on every OS — don't hardcode \"/\"."
+    },
+    {
+      "id": "nd-cluster",
+      "front": "Use all CPU cores in Node?",
+      "back": "One process uses one core; use cluster or worker_threads to scale CPU work."
+    },
+    {
+      "id": "nd-exit",
+      "front": "What is an exit code?",
+      "back": "0 means success, non-zero means failure — scripts and CI rely on it."
+    },
+    {
+      "id": "nd-unhandled",
+      "front": "Why catch promise rejections?",
+      "back": "An unhandled rejection can crash the process; always .catch or try/catch await."
+    },
+    {
+      "id": "nd-nodeenv",
+      "front": "What is NODE_ENV?",
+      "back": "A convention env var (\"production\"/\"development\") to switch behavior and optimizations."
+    },
+    {
+      "id": "nd-exports",
+      "front": "module.exports vs exports?",
+      "back": "exports is a shortcut alias; reassigning it breaks the link — set module.exports."
+    },
+    {
+      "id": "nd-buffer",
+      "front": "What is a Buffer?",
+      "back": "A fixed chunk of raw binary bytes — Node's way to handle files, network data, etc."
+    },
+    {
+      "id": "nd-devdep",
+      "front": "dependencies vs devDependencies?",
+      "back": "deps are needed at runtime; devDeps (test, build tools) are only for development."
+    }
+  ]
+}

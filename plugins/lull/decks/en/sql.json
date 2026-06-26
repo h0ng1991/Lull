@@ -1,0 +1,121 @@
+{
+  "stack": "sql",
+  "name": "SQL",
+  "cards": [
+    {
+      "id": "sql-index",
+      "front": "What does an index do, and its cost?",
+      "back": "Speeds lookups/sorts on a column; costs storage and slower writes."
+    },
+    {
+      "id": "sql-joins",
+      "front": "INNER vs LEFT JOIN?",
+      "back": "INNER returns only matches; LEFT returns all left rows, NULLs where no match."
+    },
+    {
+      "id": "sql-having",
+      "front": "WHERE vs HAVING?",
+      "back": "WHERE filters rows before grouping; HAVING filters groups after GROUP BY."
+    },
+    {
+      "id": "sql-tx",
+      "front": "What does a transaction guarantee?",
+      "back": "ACID — a group of statements commits all-or-nothing."
+    },
+    {
+      "id": "sql-keys",
+      "front": "Primary vs foreign key?",
+      "back": "Primary uniquely identifies a row; foreign references a primary key in another table."
+    },
+    {
+      "id": "sql-groupby",
+      "front": "What does GROUP BY do?",
+      "back": "Collapses rows sharing a value into groups for aggregates (COUNT, SUM)."
+    },
+    {
+      "id": "sql-null",
+      "front": "How to test for NULL?",
+      "back": "IS NULL / IS NOT NULL; \"= NULL\" is always unknown, never true."
+    },
+    {
+      "id": "sql-distinct",
+      "front": "What does DISTINCT do?",
+      "back": "Removes duplicate rows, keeping one of each unique combination."
+    },
+    {
+      "id": "sql-n1",
+      "front": "The N+1 query problem?",
+      "back": "One query per row in a loop instead of one set query — fix with a JOIN or IN."
+    },
+    {
+      "id": "sql-normal",
+      "front": "What is normalization?",
+      "back": "Organizing tables to avoid duplicated data, so each fact lives in one place."
+    },
+    {
+      "id": "sql-orderby",
+      "front": "What does ORDER BY do?",
+      "back": "Sorts results by a column, ASC (default) or DESC."
+    },
+    {
+      "id": "sql-limit",
+      "front": "What do LIMIT/OFFSET do?",
+      "back": "LIMIT caps rows returned; OFFSET skips some — the basis of pagination."
+    },
+    {
+      "id": "sql-aggregates",
+      "front": "Common aggregate functions?",
+      "back": "COUNT, SUM, AVG, MIN, MAX — summarize many rows into one value."
+    },
+    {
+      "id": "sql-like",
+      "front": "What does LIKE do?",
+      "back": "Pattern matching: % is any string, _ is one char. \"abc%\" = starts with abc."
+    },
+    {
+      "id": "sql-subquery",
+      "front": "What is a subquery?",
+      "back": "A query nested inside another, e.g. WHERE id IN (SELECT ...)."
+    },
+    {
+      "id": "sql-union",
+      "front": "UNION vs UNION ALL?",
+      "back": "Both stack result sets; UNION removes duplicates, UNION ALL keeps them (faster)."
+    },
+    {
+      "id": "sql-case",
+      "front": "What does CASE WHEN do?",
+      "back": "Inline if/else in a query to compute a value per row."
+    },
+    {
+      "id": "sql-coalesce",
+      "front": "What does COALESCE do?",
+      "back": "Returns the first non-NULL of its arguments — great for default values."
+    },
+    {
+      "id": "sql-injection",
+      "front": "How to prevent SQL injection?",
+      "back": "Use parameterized queries / prepared statements — never string-concatenate user input."
+    },
+    {
+      "id": "sql-explain",
+      "front": "What does EXPLAIN do?",
+      "back": "Shows the query plan — how the DB will execute it, so you can spot slow scans."
+    },
+    {
+      "id": "sql-countstar",
+      "front": "COUNT(*) vs COUNT(col)?",
+      "back": "COUNT(*) counts rows; COUNT(col) counts non-NULL values in that column."
+    },
+    {
+      "id": "sql-between",
+      "front": "What does BETWEEN do?",
+      "back": "Inclusive range test: x BETWEEN 1 AND 10 means 1 <= x <= 10."
+    },
+    {
+      "id": "sql-in",
+      "front": "What does IN do?",
+      "back": "Matches any value in a list: WHERE status IN ('open','pending')."
+    }
+  ]
+}

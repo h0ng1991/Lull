@@ -1,0 +1,126 @@
+{
+  "category": "health",
+  "name": "Health",
+  "cards": [
+    {
+      "id": "he-202020",
+      "front": "The 20-20-20 eye rule?",
+      "back": "Every 20 min, look ~20 ft (6 m) away for 20 seconds to ease eye strain."
+    },
+    {
+      "id": "he-move",
+      "front": "How often to move when sitting?",
+      "back": "Stand/walk a couple minutes every 30-60 min."
+    },
+    {
+      "id": "he-bluelight",
+      "front": "Why avoid screens before bed?",
+      "back": "Blue light suppresses melatonin and content keeps you alert, delaying sleep."
+    },
+    {
+      "id": "he-hydrate",
+      "front": "A simple hydration cue?",
+      "back": "Pale-yellow urine means hydrated; dark means drink more."
+    },
+    {
+      "id": "he-protein",
+      "front": "Why protein at each meal?",
+      "back": "It keeps you full, preserves muscle, and steadies energy."
+    },
+    {
+      "id": "he-strength",
+      "front": "Why strength-train with age?",
+      "back": "Muscle is lost after ~30; resistance keeps strength, bone, metabolism."
+    },
+    {
+      "id": "he-caffeine",
+      "front": "Why cut caffeine in the afternoon?",
+      "back": "Half-life ~5-6h, so it can still disrupt night sleep."
+    },
+    {
+      "id": "he-sleepreg",
+      "front": "Biggest sleep lever?",
+      "back": "A consistent sleep/wake time sets your body clock."
+    },
+    {
+      "id": "he-walk",
+      "front": "Why is a daily walk underrated?",
+      "back": "Low-impact movement lifts mood, blood sugar, and heart health."
+    },
+    {
+      "id": "he-fiber",
+      "front": "Why eat more fiber?",
+      "back": "Feeds gut bacteria, steadies blood sugar, keeps you full."
+    },
+    {
+      "id": "he-morninglight",
+      "front": "Why get morning sunlight?",
+      "back": "Bright light early anchors your circadian rhythm and improves night sleep."
+    },
+    {
+      "id": "he-breathing",
+      "front": "Fast way to calm down?",
+      "back": "Slow exhales (e.g. box breathing 4-4-4-4) shift you to \"rest\" mode."
+    },
+    {
+      "id": "he-posture",
+      "front": "Healthy desk posture?",
+      "back": "Screen at eye level, feet flat, neutral spine — reduces neck/back strain."
+    },
+    {
+      "id": "he-sugar",
+      "front": "Why limit added sugar?",
+      "back": "It spikes then crashes blood sugar and energy; whole foods are steadier."
+    },
+    {
+      "id": "he-alcohol",
+      "front": "How does alcohol affect sleep?",
+      "back": "It helps you fall asleep but fragments deep sleep, so you wake unrested."
+    },
+    {
+      "id": "he-nap",
+      "front": "How to nap well?",
+      "back": "Keep it 10-20 min and not too late, so it refreshes without grogginess."
+    },
+    {
+      "id": "he-warmup",
+      "front": "Why warm up before exercise?",
+      "back": "It raises blood flow and loosens muscles, cutting injury risk."
+    },
+    {
+      "id": "he-handwash",
+      "front": "Best everyday infection defense?",
+      "back": "Washing hands with soap for ~20 seconds — simple and very effective."
+    },
+    {
+      "id": "he-electrolytes",
+      "front": "Heavy sweating — water enough?",
+      "back": "You also lose electrolytes (sodium); replace them, not just water."
+    },
+    {
+      "id": "he-rest",
+      "front": "Do muscles grow during workouts?",
+      "back": "No — they grow during rest. Rest days are part of training, not a break from it."
+    },
+    {
+      "id": "he-eat-slow",
+      "front": "Why eat slowly?",
+      "back": "Fullness signals lag ~20 min; slowing down helps you stop before overeating."
+    },
+    {
+      "id": "he-stretch",
+      "front": "Counter all-day sitting how?",
+      "back": "Stretch hip flexors and chest/neck — sitting tightens them and rounds posture."
+    },
+    {
+      "id": "he-sunscreen",
+      "front": "Simplest anti-aging skin habit?",
+      "back": "Daily sunscreen — UV is the biggest preventable cause of skin aging."
+    },
+    {
+      "id": "he-strength-bone",
+      "front": "Why does weight-bearing exercise help bones?",
+      "back": "Stress signals bones to stay dense, lowering fracture risk with age."
+    }
+  ]
+}

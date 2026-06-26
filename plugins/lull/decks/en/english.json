@@ -1,0 +1,126 @@
+{
+  "category": "english",
+  "name": "Words & Usage",
+  "cards": [
+    {
+      "id": "en-affect-effect",
+      "front": "affect vs effect?",
+      "back": "affect = usually the verb (to influence); effect = usually the noun (the result)."
+    },
+    {
+      "id": "en-fewer-less",
+      "front": "fewer vs less?",
+      "back": "fewer for countable (fewer bugs); less for uncountable (less code)."
+    },
+    {
+      "id": "en-ie-eg",
+      "front": "i.e. vs e.g.?",
+      "back": "i.e. = \"that is\" (clarify); e.g. = \"for example\"."
+    },
+    {
+      "id": "en-whom",
+      "front": "who vs whom?",
+      "back": "who = subject; whom = object. If you could answer \"him\", use whom."
+    },
+    {
+      "id": "en-its",
+      "front": "its vs it's?",
+      "back": "its = belonging to it; it's = it is / it has."
+    },
+    {
+      "id": "en-youre",
+      "front": "your vs you're?",
+      "back": "your = belonging to you; you're = you are."
+    },
+    {
+      "id": "en-then-than",
+      "front": "then vs than?",
+      "back": "then = time/sequence; than = comparison."
+    },
+    {
+      "id": "en-compliment",
+      "front": "complement vs compliment?",
+      "back": "complement completes; compliment is praise."
+    },
+    {
+      "id": "en-laylie",
+      "front": "lay vs lie?",
+      "back": "You lay an object down; you lie down yourself (no object)."
+    },
+    {
+      "id": "en-principal",
+      "front": "principal vs principle?",
+      "back": "principal = main / head person; principle = a rule."
+    },
+    {
+      "id": "en-there",
+      "front": "there vs their vs they're?",
+      "back": "there = place; their = belonging to them; they're = they are."
+    },
+    {
+      "id": "en-accept",
+      "front": "accept vs except?",
+      "back": "accept = to receive; except = apart from / excluding."
+    },
+    {
+      "id": "en-lose",
+      "front": "lose vs loose?",
+      "back": "lose = to not win / misplace; loose = not tight."
+    },
+    {
+      "id": "en-whose",
+      "front": "whose vs who's?",
+      "back": "whose = belonging to whom; who's = who is / who has."
+    },
+    {
+      "id": "en-too",
+      "front": "to vs too vs two?",
+      "back": "to = direction/infinitive; too = also / excessively; two = 2."
+    },
+    {
+      "id": "en-led",
+      "front": "led vs lead?",
+      "back": "led = past tense of \"lead\"; \"lead\" (the metal) just sounds the same."
+    },
+    {
+      "id": "en-everyday",
+      "front": "everyday vs every day?",
+      "back": "everyday = ordinary (adjective); every day = each day."
+    },
+    {
+      "id": "en-farther",
+      "front": "farther vs further?",
+      "back": "farther = physical distance; further = figurative/extent."
+    },
+    {
+      "id": "en-imply",
+      "front": "imply vs infer?",
+      "back": "The speaker implies (hints); the listener infers (concludes)."
+    },
+    {
+      "id": "en-assure",
+      "front": "assure vs ensure vs insure?",
+      "back": "assure a person; ensure a result; insure against financial loss."
+    },
+    {
+      "id": "en-me-i",
+      "front": "\"between you and I\" or \"me\"?",
+      "back": "me — after a preposition use the object: \"between you and me\"."
+    },
+    {
+      "id": "en-couldve",
+      "front": "\"could of\" — right?",
+      "back": "No — it's \"could have\" / \"could've\". \"of\" just sounds like \"'ve\"."
+    },
+    {
+      "id": "en-semicolon",
+      "front": "When to use a semicolon?",
+      "back": "To join two related full sentences: \"It rained; we stayed in.\""
+    },
+    {
+      "id": "en-oxford",
+      "front": "What is the Oxford comma?",
+      "back": "The comma before \"and\" in a list: \"a, b, and c\" — prevents ambiguity."
+    }
+  ]
+}

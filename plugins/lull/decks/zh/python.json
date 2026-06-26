@@ -1,0 +1,126 @@
+{
+  "stack": "python",
+  "name": "Python",
+  "cards": [
+    {
+      "id": "py-mutable",
+      "front": "可变默认参数的坑?",
+      "back": "def f(x=[]) 多次调用共享同一列表。用 x=None,再 x = x or []。"
+    },
+    {
+      "id": "py-is-eq",
+      "front": "is 和 ==?",
+      "back": "is 比身份(同一对象);== 比值。"
+    },
+    {
+      "id": "py-gen",
+      "front": "生成器 vs 列表?",
+      "back": "惰性、O(1) 内存、逐个产出;不能索引、用完即止。"
+    },
+    {
+      "id": "py-gil",
+      "front": "GIL 意味着?",
+      "back": "同一时刻一个线程跑字节码;CPU 密集要多进程。"
+    },
+    {
+      "id": "py-with",
+      "front": "with 干什么?",
+      "back": "执行 __enter__/__exit__,异常时也保证清理。"
+    },
+    {
+      "id": "py-comp",
+      "front": "列表推导式?",
+      "back": "[x*2 for x in xs if x>0]——简洁高效造列表。"
+    },
+    {
+      "id": "py-args",
+      "front": "*args 和 **kwargs?",
+      "back": "*args 收多余位置参数(元组);**kwargs 收多余关键字参数(字典)。"
+    },
+    {
+      "id": "py-copy",
+      "front": "浅拷贝 vs 深拷贝?",
+      "back": "浅拷贝共享内层对象;深拷贝递归复制全部。"
+    },
+    {
+      "id": "py-fstring",
+      "front": "f-string?",
+      "back": "f\"{name} is {age}\"——可读、内联求值的格式化。"
+    },
+    {
+      "id": "py-venv",
+      "front": "为何用虚拟环境?",
+      "back": "隔离项目依赖,避免版本冲突。"
+    },
+    {
+      "id": "py-enumerate",
+      "front": "enumerate 干什么?",
+      "back": "带索引遍历:for i, v in enumerate(xs)——比 range(len()) 干净。"
+    },
+    {
+      "id": "py-zip",
+      "front": "zip 干什么?",
+      "back": "把多个可迭代对象配对:for a, b in zip(xs, ys)。"
+    },
+    {
+      "id": "py-dictget",
+      "front": "为何用 dict.get(key, 默认)?",
+      "back": "键不存在时返回默认值,而不是抛 KeyError。"
+    },
+    {
+      "id": "py-truthy",
+      "front": "什么是\"真值性\"?",
+      "back": "空容器、0、\"\"、None 为假;用 \"if items:\" 而非 \"if len(items)>0\"。"
+    },
+    {
+      "id": "py-slice",
+      "front": "xs[start:stop:step]?",
+      "back": "切片;xs[::-1] 反转,xs[:3] 取前三个。"
+    },
+    {
+      "id": "py-isnone",
+      "front": "怎么判断 None?",
+      "back": "用 \"x is None\",不是 \"x == None\"——比身份。"
+    },
+    {
+      "id": "py-exc",
+      "front": "try/except/finally?",
+      "back": "try 执行,except 处理错误,finally 总会执行(清理)。"
+    },
+    {
+      "id": "py-decorator",
+      "front": "装饰器是什么?",
+      "back": "@deco 包裹函数,在不改它的前提下加行为(日志、缓存)。"
+    },
+    {
+      "id": "py-lambda",
+      "front": "lambda 是什么?",
+      "back": "小的匿名函数:排序用 key=lambda x: x.age。"
+    },
+    {
+      "id": "py-set",
+      "front": "何时用 set?",
+      "back": "去重和快速判断成员(x in s 是 O(1))。"
+    },
+    {
+      "id": "py-join",
+      "front": "由列表拼字符串最佳方式?",
+      "back": "\"\".join(parts)——比循环里反复 + 快得多。"
+    },
+    {
+      "id": "py-main",
+      "front": "if __name__ == \"__main__\" 是什么?",
+      "back": "里面的代码只在直接运行该文件时执行,被导入时不执行。"
+    },
+    {
+      "id": "py-hints",
+      "front": "类型注解干什么?",
+      "back": "def f(x: int) -> str 标注类型、便于工具检查;运行时并不强制。"
+    },
+    {
+      "id": "py-dictcomp",
+      "front": "字典推导式?",
+      "back": "{k: v for k, v in pairs}——像列表推导一样简洁地造字典。"
+    }
+  ]
+}

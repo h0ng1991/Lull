@@ -1,0 +1,121 @@
+{
+  "stack": "typescript",
+  "name": "TypeScript",
+  "cards": [
+    {
+      "id": "ts-any-unknown",
+      "front": "any 和 unknown?",
+      "back": "都能接收任意值,但 unknown 用前要先判断;any 关掉检查。"
+    },
+    {
+      "id": "ts-type-interface",
+      "front": "type 和 interface?",
+      "back": "interface 可扩展/合并(对象);type 还能联合、元组、映射类型。"
+    },
+    {
+      "id": "ts-asconst",
+      "front": "as const 干什么?",
+      "back": "把字面量冻成最窄只读类型——做联合/元组好用。"
+    },
+    {
+      "id": "ts-never",
+      "front": "never 何时有用?",
+      "back": "穷尽检查:漏掉的联合分支会编译报错。"
+    },
+    {
+      "id": "ts-narrow",
+      "front": "类型收窄?",
+      "back": "用 typeof/in/=== 缩小联合,让每个分支知道精确类型。"
+    },
+    {
+      "id": "ts-optional",
+      "front": "?. 和 ?? 是什么?",
+      "back": "?. 安全访问可能为空的路径;?? 仅对 null/undefined 给默认值。"
+    },
+    {
+      "id": "ts-generics",
+      "front": "为何用泛型?",
+      "back": "让类型贯穿:identity<T>(x:T):T 保留调用方类型。"
+    },
+    {
+      "id": "ts-readonly",
+      "front": "readonly 干什么?",
+      "back": "编译期把属性/数组标为不可变。"
+    },
+    {
+      "id": "ts-typeof",
+      "front": "类型空间 vs 值空间?",
+      "back": "类型位置用 typeof 读某值的类型;同名可两者皆是。"
+    },
+    {
+      "id": "ts-strictnull",
+      "front": "strictNullChecks 有什么用?",
+      "back": "null/undefined 不能随便赋值,逼你显式处理。"
+    },
+    {
+      "id": "ts-union",
+      "front": "联合类型是什么?",
+      "back": "值可以是几种类型之一:string | number。"
+    },
+    {
+      "id": "ts-literal",
+      "front": "字面量类型是什么?",
+      "back": "只取某个确切值的类型,如 \"GET\" | \"POST\" 而非 string。"
+    },
+    {
+      "id": "ts-enum",
+      "front": "enum vs 字面量联合?",
+      "back": "字符串字面量联合更简单、可摇树;enum 会生成运行时代码。"
+    },
+    {
+      "id": "ts-tuple",
+      "front": "元组是什么?",
+      "back": "定长、每个位置类型已知的数组:[string, number]。"
+    },
+    {
+      "id": "ts-guard",
+      "front": "类型守卫是什么?",
+      "back": "返回 \"x is T\" 的函数,帮编译器收窄类型。"
+    },
+    {
+      "id": "ts-utility",
+      "front": "Partial/Pick/Omit 是什么?",
+      "back": "内置工具类型:把字段变可选、保留、或剔除。"
+    },
+    {
+      "id": "ts-keyof",
+      "front": "keyof 干什么?",
+      "back": "取对象类型键的联合:keyof {a;b} 是 \"a\" | \"b\"。"
+    },
+    {
+      "id": "ts-record",
+      "front": "Record<K,V> 是什么?",
+      "back": "键为 K、值为 V 的对象类型:Record<string, number>。"
+    },
+    {
+      "id": "ts-nonnull",
+      "front": "! (非空断言)干什么?",
+      "back": "告诉 TS 某值不是 null/undefined——慎用,可能骗编译器。"
+    },
+    {
+      "id": "ts-assert",
+      "front": "as(类型断言)安全吗?",
+      "back": "它绕过检查、无运行时校验——可能藏 bug。优先用收窄。"
+    },
+    {
+      "id": "ts-discriminated",
+      "front": "可辨识联合是什么?",
+      "back": "共享一个字面量标签(kind)的对象联合,TS 据它收窄。"
+    },
+    {
+      "id": "ts-infer",
+      "front": "每个类型都要标注吗?",
+      "back": "不——明显的让 TS 推断;函数参数和对外 API 要标。"
+    },
+    {
+      "id": "ts-void",
+      "front": "void 和 undefined?",
+      "back": "void 是\"无返回值\"函数的类型;undefined 是一个具体的值。"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "category": "tech-basics",
+  "name": "Tech 101",
+  "cards": [
+    {
+      "id": "tb-api",
+      "front": "What is an API?",
+      "back": "A defined way for one program to request services/data from another."
+    },
+    {
+      "id": "tb-https",
+      "front": "HTTP vs HTTPS?",
+      "back": "HTTPS is HTTP encrypted with TLS — data in transit can't be read/tampered."
+    },
+    {
+      "id": "tb-ram",
+      "front": "RAM vs storage?",
+      "back": "RAM is fast temporary memory (cleared on power-off); storage is permanent."
+    },
+    {
+      "id": "tb-cloud",
+      "front": "What is \"the cloud\"?",
+      "back": "Someone else's computers in a data center, rented over the internet."
+    },
+    {
+      "id": "tb-cache",
+      "front": "What is a cache?",
+      "back": "Recently used data kept close by so it loads faster next time."
+    },
+    {
+      "id": "tb-frontback",
+      "front": "Frontend vs backend?",
+      "back": "Frontend is what you see/click; backend is server, logic, and database."
+    },
+    {
+      "id": "tb-algorithm",
+      "front": "What is an algorithm?",
+      "back": "A precise step-by-step recipe to solve a problem."
+    },
+    {
+      "id": "tb-opensource",
+      "front": "What does open source mean?",
+      "back": "Source code is public to read, use, and modify under a license."
+    },
+    {
+      "id": "tb-bitbyte",
+      "front": "Bit vs byte?",
+      "back": "A bit is one 0/1; a byte is 8 bits."
+    },
+    {
+      "id": "tb-database",
+      "front": "What is a database?",
+      "back": "Organized storage to save, search, and update lots of data reliably."
+    },
+    {
+      "id": "tb-ip",
+      "front": "What is an IP address?",
+      "back": "A device's numeric address on a network, so data knows where to go."
+    },
+    {
+      "id": "tb-dns",
+      "front": "What does DNS do?",
+      "back": "Translates a domain name (example.com) into its IP address — the internet's phonebook."
+    },
+    {
+      "id": "tb-server",
+      "front": "What is a server?",
+      "back": "A computer that \"serves\" responses to requests from other machines (clients)."
+    },
+    {
+      "id": "tb-compiler",
+      "front": "Compiler vs interpreter?",
+      "back": "A compiler translates code to machine code ahead of time; an interpreter runs it line by line."
+    },
+    {
+      "id": "tb-variable",
+      "front": "What is a variable?",
+      "back": "A named box that stores a value your program can read and change."
+    },
+    {
+      "id": "tb-loop",
+      "front": "What is a loop?",
+      "back": "Code that repeats a block until a condition is met — instead of copy-pasting."
+    },
+    {
+      "id": "tb-json",
+      "front": "What is JSON?",
+      "back": "A simple text format for structured data — keys and values — used everywhere in APIs."
+    },
+    {
+      "id": "tb-version",
+      "front": "What is version control (git)?",
+      "back": "It tracks changes to code over time so you can review, revert, and collaborate."
+    },
+    {
+      "id": "tb-encryption",
+      "front": "What is encryption?",
+      "back": "Scrambling data so only someone with the key can read it."
+    },
+    {
+      "id": "tb-os",
+      "front": "What is an operating system?",
+      "back": "Software (Windows, macOS, Linux) that manages hardware and runs your apps."
+    },
+    {
+      "id": "tb-cpugpu",
+      "front": "CPU vs GPU?",
+      "back": "CPU does general tasks fast in sequence; GPU does many simple tasks in parallel (graphics, AI)."
+    },
+    {
+      "id": "tb-url",
+      "front": "What is a URL?",
+      "back": "A web address: protocol + domain + path, e.g. https://site.com/page."
+    },
+    {
+      "id": "tb-cookie",
+      "front": "What is a browser cookie?",
+      "back": "A small piece of data a site stores in your browser, e.g. to keep you logged in."
+    },
+    {
+      "id": "tb-latency",
+      "front": "Bandwidth vs latency?",
+      "back": "Bandwidth is how much data per second; latency is the delay before it starts arriving."
+    }
+  ]
+}

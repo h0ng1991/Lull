@@ -1,0 +1,126 @@
+{
+  "category": "tech-basics",
+  "name": "Tech 101",
+  "cards": [
+    {
+      "id": "tb-api",
+      "front": "什么是 API?",
+      "back": "一个程序按约定向另一个程序要服务/数据的方式。"
+    },
+    {
+      "id": "tb-https",
+      "front": "HTTP 和 HTTPS?",
+      "back": "HTTPS 是 TLS 加密的 HTTP,传输中数据不被偷看/篡改。"
+    },
+    {
+      "id": "tb-ram",
+      "front": "内存和硬盘?",
+      "back": "内存是快速临时区,断电清空;硬盘永久保存。"
+    },
+    {
+      "id": "tb-cloud",
+      "front": "\"云\"是什么?",
+      "back": "数据中心里别人的电脑,通过网络租用。"
+    },
+    {
+      "id": "tb-cache",
+      "front": "缓存是什么?",
+      "back": "把最近用的数据就近存,下次更快。"
+    },
+    {
+      "id": "tb-frontback",
+      "front": "前端和后端?",
+      "back": "前端是你看到/点的;后端是服务器、逻辑、数据库。"
+    },
+    {
+      "id": "tb-algorithm",
+      "front": "算法是什么?",
+      "back": "解决问题的一套精确步骤。"
+    },
+    {
+      "id": "tb-opensource",
+      "front": "开源是什么意思?",
+      "back": "源代码公开,可读、用、改,带许可证。"
+    },
+    {
+      "id": "tb-bitbyte",
+      "front": "比特和字节?",
+      "back": "一个比特是 0/1;一个字节是 8 比特。"
+    },
+    {
+      "id": "tb-database",
+      "front": "数据库是什么?",
+      "back": "有组织的存储,可靠地存、查、改大量数据。"
+    },
+    {
+      "id": "tb-ip",
+      "front": "IP 地址是什么?",
+      "back": "设备在网络上的数字地址,数据据此找到目的地。"
+    },
+    {
+      "id": "tb-dns",
+      "front": "DNS 干什么?",
+      "back": "把域名(example.com)翻译成 IP 地址——互联网的电话簿。"
+    },
+    {
+      "id": "tb-server",
+      "front": "服务器是什么?",
+      "back": "一台向其他机器(客户端)的请求提供响应的电脑。"
+    },
+    {
+      "id": "tb-compiler",
+      "front": "编译器 vs 解释器?",
+      "back": "编译器提前把代码译成机器码;解释器逐行执行。"
+    },
+    {
+      "id": "tb-variable",
+      "front": "变量是什么?",
+      "back": "一个有名字的盒子,存放程序能读写的值。"
+    },
+    {
+      "id": "tb-loop",
+      "front": "循环是什么?",
+      "back": "重复执行一段代码直到满足条件——省得复制粘贴。"
+    },
+    {
+      "id": "tb-json",
+      "front": "JSON 是什么?",
+      "back": "一种简单的结构化数据文本格式(键值对),API 里到处用。"
+    },
+    {
+      "id": "tb-version",
+      "front": "版本控制(git)是什么?",
+      "back": "记录代码随时间的变化,便于回看、回退、协作。"
+    },
+    {
+      "id": "tb-encryption",
+      "front": "加密是什么?",
+      "back": "把数据打乱,只有持密钥的人能读。"
+    },
+    {
+      "id": "tb-os",
+      "front": "操作系统是什么?",
+      "back": "管理硬件、运行应用的软件(Windows、macOS、Linux)。"
+    },
+    {
+      "id": "tb-cpugpu",
+      "front": "CPU 和 GPU?",
+      "back": "CPU 擅长顺序处理通用任务;GPU 擅长大量简单任务并行(图形、AI)。"
+    },
+    {
+      "id": "tb-url",
+      "front": "URL 是什么?",
+      "back": "网址:协议+域名+路径,如 https://site.com/page。"
+    },
+    {
+      "id": "tb-cookie",
+      "front": "浏览器 cookie 是什么?",
+      "back": "网站存在你浏览器里的小数据,比如保持登录。"
+    },
+    {
+      "id": "tb-latency",
+      "front": "带宽 vs 延迟?",
+      "back": "带宽是每秒能传多少数据;延迟是开始到达前的等待。"
+    }
+  ]
+}

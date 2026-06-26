@@ -1,0 +1,5 @@
+{
+  "lang": "en",
+  "enabledCategories": ["writing", "productivity", "health", "money", "psychology", "science", "history", "english"],
+  "_help": "想看哪些类别就留在 enabledCategories 里,不想看的删掉。可选类别:writing 职场写作沟通 | productivity 效率方法 | excel 表格技巧 | money 理财入门 | health 健康营养 | psychology 心理思维 | science 科学冷知识 | history 历史地理 | english 英语学习 | tech-basics 编程科技扫盲 | dev 开发硬核(react/typescript/python/node/git/css/sql)。也可以直接对 Claude 说'lull 只要英语和生活类',让它帮你改。"
+}

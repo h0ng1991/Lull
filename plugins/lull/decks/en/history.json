@@ -1,0 +1,121 @@
+{
+  "category": "history",
+  "name": "History & Geo",
+  "cards": [
+    {
+      "id": "hi-renaissance",
+      "front": "When/where was the Renaissance?",
+      "back": "~14th-17th century Europe, starting in Italy — art and science revival."
+    },
+    {
+      "id": "hi-silkroad",
+      "front": "What was the Silk Road?",
+      "back": "Ancient trade routes linking China to Europe via Central Asia."
+    },
+    {
+      "id": "hi-continents",
+      "front": "How many continents and oceans?",
+      "back": "Commonly seven continents and five oceans."
+    },
+    {
+      "id": "hi-greenwich",
+      "front": "Why measure time from Greenwich?",
+      "back": "An 1884 conference set it as the 0° prime meridian."
+    },
+    {
+      "id": "hi-printing",
+      "front": "Why did the printing press matter?",
+      "back": "Gutenberg (~1440) made books cheap, spreading literacy and ideas fast."
+    },
+    {
+      "id": "hi-industrial",
+      "front": "When was the Industrial Revolution?",
+      "back": "Began in Britain in the late 1700s — machines and factories."
+    },
+    {
+      "id": "hi-ww2",
+      "front": "When did WWII end?",
+      "back": "1945 — Europe in May, the Pacific in September."
+    },
+    {
+      "id": "hi-moon",
+      "front": "Why is 1969 famous?",
+      "back": "Apollo 11 landed the first humans on the Moon."
+    },
+    {
+      "id": "hi-rome",
+      "front": "When did the Western Roman Empire fall?",
+      "back": "476 CE; the Eastern (Byzantine) lasted ~1000 years more."
+    },
+    {
+      "id": "hi-greatwall",
+      "front": "What was the Great Wall for?",
+      "back": "To slow northern nomadic raids and control movement/trade."
+    },
+    {
+      "id": "hi-pyramids",
+      "front": "What are the Giza pyramids?",
+      "back": "Royal tombs built ~4,500 years ago in ancient Egypt."
+    },
+    {
+      "id": "hi-democracy",
+      "front": "Where did democracy begin?",
+      "back": "Athens, ~5th century BCE — citizens voted directly on laws."
+    },
+    {
+      "id": "hi-blackdeath",
+      "front": "What was the Black Death?",
+      "back": "A 14th-century plague that killed roughly a third of Europe."
+    },
+    {
+      "id": "hi-columbus",
+      "front": "What happened in 1492?",
+      "back": "Columbus reached the Americas, linking the hemispheres (the Columbian Exchange)."
+    },
+    {
+      "id": "hi-frenchrev",
+      "front": "When was the French Revolution?",
+      "back": "1789 — it overthrew the monarchy and spread ideas of citizen rights."
+    },
+    {
+      "id": "hi-coldwar",
+      "front": "What was the Cold War?",
+      "back": "A ~1947-1991 standoff between the US and USSR — rivalry without direct war."
+    },
+    {
+      "id": "hi-berlinwall",
+      "front": "When did the Berlin Wall fall?",
+      "back": "1989, signaling the end of the Cold War and Germany's reunification."
+    },
+    {
+      "id": "hi-gunpowder",
+      "front": "Where was gunpowder invented?",
+      "back": "In China, by alchemists — later transforming warfare worldwide."
+    },
+    {
+      "id": "hi-writing",
+      "front": "Where did writing begin?",
+      "back": "Sumer (Mesopotamia), as cuneiform ~5,000 years ago."
+    },
+    {
+      "id": "hi-magnacarta",
+      "front": "What was the Magna Carta?",
+      "back": "A 1215 English charter that limited the king's power under law."
+    },
+    {
+      "id": "hi-ww1",
+      "front": "When was World War I?",
+      "back": "1914-1918 — triggered in Europe and reshaping the map and modern warfare."
+    },
+    {
+      "id": "hi-egypt-nile",
+      "front": "Why call Egypt \"the gift of the Nile\"?",
+      "back": "The river's annual floods made the desert farmable, sustaining the civilization."
+    },
+    {
+      "id": "hi-renais-figures",
+      "front": "Two key Renaissance figures?",
+      "back": "Leonardo da Vinci and Michelangelo — masters of art and invention."
+    }
+  ]
+}

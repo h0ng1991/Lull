@@ -1,0 +1,67 @@
+<!-- Lull 卡片 widget — 锁定版设计参考(2026-06-22)。仅原型,尚未接进 skill。
+     特性:点卡翻面看答案 / "下一张"滑入 / 类别色+图标 / 提示语轮换 / 连续天数小火苗。
+     将来接进 skill 时,作为 artifact 在实质任务开头第一件事弹出(CLI 退回文字卡)。 -->
+<div style="padding: 0.4rem 0; max-width: 440px;">
+  <div id="card" role="button" tabindex="0" aria-label="点按翻看答案" style="background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 0.7rem 0.95rem; cursor: pointer; perspective: 900px;">
+    <div style="display:flex; align-items:center; justify-content:space-between; font-size:12px; margin-bottom:7px;">
+      <span style="display:inline-flex; align-items:center; gap:5px; color: var(--color-text-secondary);"><i id="catIcon" class="ti ti-pencil" style="font-size:15px;" aria-hidden="true"></i><span id="catName">—</span></span>
+      <span style="color: var(--color-text-tertiary);"><i id="flame" class="ti ti-flame" style="font-size:14px; color:#EF9F27; vertical-align:-2px; transition: transform .15s ease;" aria-hidden="true"></i> 1 天 · 已看 <span id="seen">0</span></span>
+    </div>
+    <div id="flip" style="transition: transform .16s ease, opacity .2s ease; transform-origin: center;">
+      <div id="face" style="font-size: 16px; line-height: 1.5; color: var(--color-text-primary); min-height: 36px;"></div>
+      <div id="hint" style="font-size: 12px; color: var(--color-text-tertiary); margin-top: 7px;"></div>
+    </div>
+  </div>
+  <div style="text-align: right; margin-top: 8px;">
+    <button id="next" style="font-size: 13px;">下一张<i class="ti ti-arrow-right" style="font-size:15px; vertical-align:-2px; margin-left:5px" aria-hidden="true"></i></button>
+  </div>
+</div>
+<script>
+(function(){
+  var meta={
+    "职场写作":{i:"ti-pencil",col:"#7F77DD"},"效率":{i:"ti-bolt",col:"#EF9F27"},
+    "健康":{i:"ti-heart",col:"#1D9E75"},"理财":{i:"ti-coin",col:"#639922"},
+    "心理":{i:"ti-bulb",col:"#D4537E"},"科学":{i:"ti-flask",col:"#378ADD"},
+    "历史":{i:"ti-clock",col:"#D85A30"},"英语":{i:"ti-language",col:"#E24B4A"}
+  };
+  var cards=[
+    {c:"职场写作",q:"写邮件/汇报,开头先写什么最有效?",a:"先写结论或你的请求,再写理由和细节(对方很忙,先给重点)。"},
+    {c:"科学",q:"天为什么是蓝色的?",a:"大气把波长更短的蓝光散射得更多(瑞利散射)。"},
+    {c:"效率",q:"什么是‘两分钟法则’?",a:"两分钟内能做完的事,立刻做掉,别记进清单。"},
+    {c:"英语",q:"affect 和 effect 怎么区分?",a:"affect 多作动词(影响);effect 多作名词(效果)。"},
+    {c:"健康",q:"20-20-20 护眼法则是什么?",a:"每 20 分钟,看约 6 米外的东西 20 秒,缓解眼疲劳。"},
+    {c:"理财",q:"应急基金一般该存多少?",a:"通常 3–6 个月生活开支,放随时能取的活期。"},
+    {c:"心理",q:"‘沉没成本’陷阱是什么?",a:"已花掉、收不回的成本不该左右决定,只看往后值不值。"},
+    {c:"历史",q:"文艺复兴大致在何时何地?",a:"约 14–17 世纪的欧洲,始于意大利。"}
+  ];
+  for(var i=cards.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=cards[i];cards[i]=cards[j];cards[j]=t;}
+  var hints=["想想看…","先猜一下","记得吗?","试着回忆一下"];
+  var pos=0, seen=0, showA=false, counted=false;
+  var card=document.getElementById('card'), flip=document.getElementById('flip');
+  var face=document.getElementById('face'), hint=document.getElementById('hint');
+  var catIcon=document.getElementById('catIcon'), catName=document.getElementById('catName');
+  var seenEl=document.getElementById('seen'), flame=document.getElementById('flame');
+  function paint(){
+    var c=cards[pos], m=meta[c.c];
+    catIcon.className='ti '+m.i; catIcon.style.color=m.col; catName.textContent=c.c;
+    if(showA){
+      face.innerHTML='<span style="display:block; border-left:3px solid '+m.col+'; border-radius:0; padding-left:8px;">A: '+c.a+'</span>';
+      hint.innerHTML='<i class="ti ti-rotate" style="font-size:13px; vertical-align:-2px; margin-right:4px"></i>再点翻回 · 或下一张';
+    }else{
+      face.textContent=c.q;
+      hint.innerHTML='<i class="ti ti-eye" style="font-size:14px; vertical-align:-2px; margin-right:4px"></i>'+hints[Math.floor(Math.random()*hints.length)];
+    }
+  }
+  function flipToggle(){flip.style.transition='transform .16s ease';flip.style.transform='rotateY(90deg)';setTimeout(function(){paint();flip.style.transform='rotateY(0deg)';},160);}
+  function slideNext(){
+    pos=(pos+1)%cards.length; showA=false; counted=false; paint();
+    flip.style.transition='none'; flip.style.opacity='0'; flip.style.transform='translateX(16px)';
+    requestAnimationFrame(function(){flip.style.transition='transform .2s ease, opacity .2s ease'; flip.style.opacity='1'; flip.style.transform='translateX(0)';});
+  }
+  function bump(el,s){el.style.transform='scale('+s+')';setTimeout(function(){el.style.transform='scale(1)';},150);}
+  card.addEventListener('click',function(){showA=!showA;if(showA&&!counted){seen++;seenEl.textContent=seen;counted=true;bump(seenEl,1.4);if(seen===5)bump(flame,1.5);}flipToggle();});
+  card.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();card.click();}});
+  document.getElementById('next').addEventListener('click',function(e){e.stopPropagation();slideNext();});
+  paint();
+})();
+</script>

@@ -1,0 +1,121 @@
+{
+  "category": "english",
+  "name": "英语学习",
+  "cards": [
+    {
+      "id": "enz-affect",
+      "front": "affect 和 effect 怎么区分?",
+      "back": "affect 多作动词\"影响\";effect 多作名词\"效果\"。"
+    },
+    {
+      "id": "enz-fyi",
+      "front": "邮件里 FYI 什么意思?",
+      "back": "For Your Information,\"供你参考\"。"
+    },
+    {
+      "id": "enz-available",
+      "front": "available 怎么用?",
+      "back": "\"有空的/可获得的\":I am available at 3pm;The data is available。"
+    },
+    {
+      "id": "enz-bored",
+      "front": "bored 和 boring 区别?",
+      "back": "-ed 形容人感受(I am bored);-ing 形容事物(it is boring)。"
+    },
+    {
+      "id": "enz-lookforward",
+      "front": "look forward to 后面跟什么?",
+      "back": "跟名词或动名词:look forward to seeing you,不是 to see。"
+    },
+    {
+      "id": "enz-advice",
+      "front": "advice 可数吗?",
+      "back": "不可数,没有 advices;一条建议说 a piece of advice。"
+    },
+    {
+      "id": "enz-makedo",
+      "front": "make 和 do 怎么选?",
+      "back": "make 偏\"创造\"(make a plan);do 偏\"执行/事务\"(do homework)。"
+    },
+    {
+      "id": "enz-perfect",
+      "front": "现在完成时(have done)何时用?",
+      "back": "过去发生、与现在相关或没说具体时间:I have finished。"
+    },
+    {
+      "id": "enz-asap",
+      "front": "ASAP / EOD / ETA 是什么?",
+      "back": "尽快 / 当天结束前 / 预计到达或完成时间。"
+    },
+    {
+      "id": "enz-article",
+      "front": "a/an/the 怎么选?",
+      "back": "a/an 泛指某一个;the 特指双方都知道的那个。"
+    },
+    {
+      "id": "enz-muchmany",
+      "front": "much 和 many 区别?",
+      "back": "many + 可数复数(many books);much + 不可数(much time)。"
+    },
+    {
+      "id": "enz-sincefor",
+      "front": "since 和 for(完成时)?",
+      "back": "since + 时间点(since 2020);for + 时间段(for 3 years)。"
+    },
+    {
+      "id": "enz-prep-time",
+      "front": "in/on/at 表时间怎么用?",
+      "back": "at 点钟(at 6);on 某天(on Monday);in 月/年/时段(in May)。"
+    },
+    {
+      "id": "enz-someany",
+      "front": "some 和 any 怎么选?",
+      "back": "some 多用于肯定句;any 多用于否定和疑问。"
+    },
+    {
+      "id": "enz-usedto",
+      "front": "used to do 和 be used to doing?",
+      "back": "used to do 过去常做;be used to doing 习惯于做某事。"
+    },
+    {
+      "id": "enz-thirdperson",
+      "front": "第三人称单数动词变化?",
+      "back": "he/she/it + 动词加 -s:She works,不是 She work。"
+    },
+    {
+      "id": "enz-willgoing",
+      "front": "will 和 be going to?",
+      "back": "will 临时决定/预测;be going to 已有打算或有迹象。"
+    },
+    {
+      "id": "enz-uncountable",
+      "front": "哪些常见词不可数?",
+      "back": "information、news、advice、furniture、equipment——不加 s,不用 a。"
+    },
+    {
+      "id": "enz-comparative",
+      "front": "比较级用 -er 还是 more?",
+      "back": "短词加 -er(faster);长词(3 音节+)用 more(more careful)。"
+    },
+    {
+      "id": "enz-too-to",
+      "front": "too...to 和 so...that?",
+      "back": "too tired to walk(太累走不动);so tired that I slept(太累以致睡着)。"
+    },
+    {
+      "id": "enz-polite",
+      "front": "礼貌请求怎么说?",
+      "back": "Could/Would you please…? 比 Can you…? 更客气。"
+    },
+    {
+      "id": "enz-thereis",
+      "front": "there is / there are?",
+      "back": "后接单数用 is、复数用 are:There is a book;There are books。"
+    },
+    {
+      "id": "enz-linkers",
+      "front": "常用连接词 however/therefore?",
+      "back": "however = 然而(转折);therefore = 因此(结果)。"
+    }
+  ]
+}

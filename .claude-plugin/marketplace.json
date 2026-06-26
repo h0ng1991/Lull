@@ -1,0 +1,14 @@
+{
+  "name": "lull",
+  "owner": { "name": "ph199" },
+  "metadata": {
+    "description": "Lull — turn AI-agent wait time into one active-recall flashcard."
+  },
+  "plugins": [
+    {
+      "name": "lull",
+      "source": "./plugins/lull",
+      "description": "While your AI agent is thinking, learn one thing relevant to what you're building. A flashcard question appears when the agent starts; the answer is revealed when it's done."
+    }
+  ]
+}

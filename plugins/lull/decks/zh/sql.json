@@ -1,0 +1,121 @@
+{
+  "stack": "sql",
+  "name": "SQL",
+  "cards": [
+    {
+      "id": "sql-index",
+      "front": "索引有什么用、代价?",
+      "back": "加速该列的查找/排序;代价是占空间、写入变慢。"
+    },
+    {
+      "id": "sql-joins",
+      "front": "INNER 和 LEFT JOIN?",
+      "back": "INNER 只返回匹配;LEFT 返回左表全部,无匹配补 NULL。"
+    },
+    {
+      "id": "sql-having",
+      "front": "WHERE 和 HAVING?",
+      "back": "WHERE 分组前过滤行;HAVING 分组后过滤组。"
+    },
+    {
+      "id": "sql-tx",
+      "front": "事务保证什么?",
+      "back": "ACID——一组语句要么全成要么全不。"
+    },
+    {
+      "id": "sql-keys",
+      "front": "主键 vs 外键?",
+      "back": "主键唯一标识一行;外键指向另一表的主键。"
+    },
+    {
+      "id": "sql-groupby",
+      "front": "GROUP BY?",
+      "back": "把某列相同的行并组,便于聚合(COUNT、SUM)。"
+    },
+    {
+      "id": "sql-null",
+      "front": "怎么判断 NULL?",
+      "back": "IS NULL / IS NOT NULL;\"= NULL\" 永远是未知,不为真。"
+    },
+    {
+      "id": "sql-distinct",
+      "front": "DISTINCT?",
+      "back": "去掉重复行,每种唯一组合留一行。"
+    },
+    {
+      "id": "sql-n1",
+      "front": "N+1 查询问题?",
+      "back": "循环里逐行各查一次,而非一条集合查询——用 JOIN 或 IN 解决。"
+    },
+    {
+      "id": "sql-normal",
+      "front": "范式化?",
+      "back": "组织表避免重复数据,每个事实只存一处。"
+    },
+    {
+      "id": "sql-orderby",
+      "front": "ORDER BY?",
+      "back": "按某列排序,ASC(默认)或 DESC。"
+    },
+    {
+      "id": "sql-limit",
+      "front": "LIMIT/OFFSET?",
+      "back": "LIMIT 限制返回行数;OFFSET 跳过若干——分页的基础。"
+    },
+    {
+      "id": "sql-aggregates",
+      "front": "常见聚合函数?",
+      "back": "COUNT、SUM、AVG、MIN、MAX——把多行汇总成一个值。"
+    },
+    {
+      "id": "sql-like",
+      "front": "LIKE 干什么?",
+      "back": "模式匹配:% 是任意串,_ 是单字符。\"abc%\" = 以 abc 开头。"
+    },
+    {
+      "id": "sql-subquery",
+      "front": "子查询是什么?",
+      "back": "嵌在另一个查询里的查询,如 WHERE id IN (SELECT ...)。"
+    },
+    {
+      "id": "sql-union",
+      "front": "UNION 和 UNION ALL?",
+      "back": "都把结果集拼接;UNION 去重,UNION ALL 保留重复(更快)。"
+    },
+    {
+      "id": "sql-case",
+      "front": "CASE WHEN?",
+      "back": "查询里的内联 if/else,按行算出一个值。"
+    },
+    {
+      "id": "sql-coalesce",
+      "front": "COALESCE?",
+      "back": "返回参数里第一个非 NULL 的值——很适合做默认值。"
+    },
+    {
+      "id": "sql-injection",
+      "front": "怎么防 SQL 注入?",
+      "back": "用参数化查询/预处理语句——绝不拼接用户输入。"
+    },
+    {
+      "id": "sql-explain",
+      "front": "EXPLAIN 干什么?",
+      "back": "显示查询计划——数据库打算怎么执行,便于发现慢的全表扫描。"
+    },
+    {
+      "id": "sql-countstar",
+      "front": "COUNT(*) 和 COUNT(列)?",
+      "back": "COUNT(*) 数行;COUNT(列) 数该列非 NULL 的值。"
+    },
+    {
+      "id": "sql-between",
+      "front": "BETWEEN?",
+      "back": "闭区间判断:x BETWEEN 1 AND 10 即 1 <= x <= 10。"
+    },
+    {
+      "id": "sql-in",
+      "front": "IN 干什么?",
+      "back": "匹配列表中任一值:WHERE status IN ('open','pending')。"
+    }
+  ]
+}

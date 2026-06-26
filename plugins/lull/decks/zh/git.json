@@ -1,0 +1,121 @@
+{
+  "stack": "git",
+  "name": "Git",
+  "cards": [
+    {
+      "id": "gt-rebase",
+      "front": "rebase 和 merge?",
+      "back": "merge 保留两条历史+合并提交;rebase 重放成线性历史(改哈希)。"
+    },
+    {
+      "id": "gt-reset",
+      "front": "reset --soft/--mixed/--hard?",
+      "back": "soft 保留暂存+文件;mixed 重置暂存;hard 连文件改动也丢。"
+    },
+    {
+      "id": "gt-stash",
+      "front": "git stash?",
+      "back": "把未提交改动暂存得到干净工作区;stash pop 拿回来。"
+    },
+    {
+      "id": "gt-detached",
+      "front": "分离 HEAD?",
+      "back": "HEAD 指向提交而非分支;新提交可能丢。建分支保住它。"
+    },
+    {
+      "id": "gt-fetchpull",
+      "front": "fetch 和 pull?",
+      "back": "fetch 只下载远程改动;pull = fetch + 合并进当前分支。"
+    },
+    {
+      "id": "gt-cherry",
+      "front": "cherry-pick?",
+      "back": "把某个提交摘到当前分支,不合并整条来源。"
+    },
+    {
+      "id": "gt-ignore",
+      "front": ".gitignore?",
+      "back": "告诉 git 哪些文件不跟踪;已跟踪的不受影响。"
+    },
+    {
+      "id": "gt-amend",
+      "front": "commit --amend?",
+      "back": "替换最近一次提交;已推送的别用。"
+    },
+    {
+      "id": "gt-revert",
+      "front": "revert 和 reset?",
+      "back": "revert 新建撤销提交(适合共享历史);reset 把指针往回移。"
+    },
+    {
+      "id": "gt-branch",
+      "front": "分支 vs 标签?",
+      "back": "分支随提交移动;标签是钉在某提交上的固定标记(发布版)。"
+    },
+    {
+      "id": "gt-addp",
+      "front": "git add -p 干什么?",
+      "back": "按代码块逐段暂存,把一个文件拆成多个聚焦的提交。"
+    },
+    {
+      "id": "gt-headtilde",
+      "front": "HEAD~1 是什么?",
+      "back": "HEAD 前一个提交;HEAD~2 前两个——reset/rebase 常用。"
+    },
+    {
+      "id": "gt-conflict",
+      "front": "怎么解决合并冲突?",
+      "back": "把 <<<< ==== >>>> 标记处改成想要的结果,再 add 并提交。"
+    },
+    {
+      "id": "gt-logoneline",
+      "front": "怎么紧凑看历史?",
+      "back": "git log --oneline 每个提交一行——快速概览。"
+    },
+    {
+      "id": "gt-diffstaged",
+      "front": "看即将提交的内容?",
+      "back": "git diff --staged 看已暂存的;git diff 看未暂存的。"
+    },
+    {
+      "id": "gt-remote",
+      "front": "\"origin\" 是什么?",
+      "back": "你主远程仓库的默认名字(如 GitHub 上的)。"
+    },
+    {
+      "id": "gt-upstream",
+      "front": "push -u 干什么?",
+      "back": "设置上游分支,之后 push/pull 不用再带参数。"
+    },
+    {
+      "id": "gt-blame",
+      "front": "git blame?",
+      "back": "显示每行最后由谁、在哪个提交改的——用于追溯历史。"
+    },
+    {
+      "id": "gt-squash",
+      "front": "压缩(squash)提交?",
+      "back": "把多个提交合成一个(用 rebase -i),让历史更干净。"
+    },
+    {
+      "id": "gt-clonefork",
+      "front": "clone 和 fork?",
+      "back": "clone 把仓库复制到本地;fork 在服务端(如 GitHub)建你自己的副本。"
+    },
+    {
+      "id": "gt-restore",
+      "front": "撤销单个文件的改动?",
+      "back": "git restore <文件> 丢弃其未暂存改动(旧写法 git checkout -- )。"
+    },
+    {
+      "id": "gt-commitmsg",
+      "front": "好的提交信息?",
+      "back": "一句祈使式概要(\"修复登录崩溃\"),需要的话正文写细节。"
+    },
+    {
+      "id": "gt-forcedanger",
+      "front": "git push --force 为何危险?",
+      "back": "可能覆盖共享分支上别人的提交;改用 --force-with-lease 更安全。"
+    }
+  ]
+}

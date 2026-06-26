@@ -1,0 +1,121 @@
+{
+  "stack": "css",
+  "name": "CSS",
+  "cards": [
+    {
+      "id": "css-spec",
+      "front": "How is specificity ranked?",
+      "back": "inline > id > class/attr/pseudo-class > element; ties go to the later rule."
+    },
+    {
+      "id": "css-box",
+      "front": "box-sizing: border-box?",
+      "back": "Width/height include padding and border, so elements stay the size you set."
+    },
+    {
+      "id": "css-flexgrid",
+      "front": "Flexbox vs Grid?",
+      "back": "Flexbox is one-dimensional (row or column); Grid is two-dimensional."
+    },
+    {
+      "id": "css-stack",
+      "front": "Why does z-index sometimes fail?",
+      "back": "It only applies within a stacking context; a parent context can trap a child."
+    },
+    {
+      "id": "css-emrem",
+      "front": "em vs rem?",
+      "back": "em is relative to the element's font-size (compounds); rem to the root."
+    },
+    {
+      "id": "css-position",
+      "front": "relative vs absolute?",
+      "back": "relative offsets from its spot; absolute is placed vs the nearest positioned ancestor."
+    },
+    {
+      "id": "css-center",
+      "front": "Quickest way to center?",
+      "back": "On the parent: display:flex; align-items:center; justify-content:center."
+    },
+    {
+      "id": "css-collapse",
+      "front": "What is margin collapse?",
+      "back": "Adjacent vertical margins merge into the larger one."
+    },
+    {
+      "id": "css-important",
+      "front": "Why avoid !important?",
+      "back": "It overrides specificity and is hard to undo, causing escalation. Fix specificity instead."
+    },
+    {
+      "id": "css-media",
+      "front": "What is a media query?",
+      "back": "@media (max-width:600px){...} applies styles by screen size — responsive basics."
+    },
+    {
+      "id": "css-display",
+      "front": "block vs inline vs inline-block?",
+      "back": "block stacks full-width; inline flows in text (no width/height); inline-block flows but sizes."
+    },
+    {
+      "id": "css-pseudoclass",
+      "front": "What is a pseudo-class?",
+      "back": ":hover, :focus, :first-child — style an element in a particular state or position."
+    },
+    {
+      "id": "css-pseudoel",
+      "front": "What is a pseudo-element?",
+      "back": "::before / ::after insert generated content; need a content property."
+    },
+    {
+      "id": "css-transition",
+      "front": "What does transition do?",
+      "back": "Animates a property change smoothly over time: transition: opacity .2s."
+    },
+    {
+      "id": "css-transform",
+      "front": "What is transform good for?",
+      "back": "Move/scale/rotate without affecting layout — and it's GPU-accelerated, so it's smooth."
+    },
+    {
+      "id": "css-flexitem",
+      "front": "flex: 1 — what does it mean?",
+      "back": "Shorthand for grow:1, shrink:1, basis:0 — the item takes available space evenly."
+    },
+    {
+      "id": "css-gap",
+      "front": "What does gap do?",
+      "back": "Adds space between flex/grid items without margins on each child."
+    },
+    {
+      "id": "css-overflow",
+      "front": "What does overflow control?",
+      "back": "What happens to content that exceeds a box: visible, hidden, scroll, or auto."
+    },
+    {
+      "id": "css-units",
+      "front": "% vs vw/vh?",
+      "back": "% is relative to the parent; vw/vh are relative to the viewport width/height."
+    },
+    {
+      "id": "css-vars",
+      "front": "What are CSS custom properties?",
+      "back": "Variables: --gap: 8px; then var(--gap) — reusable, themeable values."
+    },
+    {
+      "id": "css-combinators",
+      "front": "What do > + ~ mean?",
+      "back": "> direct child; + next sibling; ~ any following sibling."
+    },
+    {
+      "id": "css-inherit",
+      "front": "Which properties inherit?",
+      "back": "Mostly text ones (color, font) inherit; box ones (margin, border) don't."
+    },
+    {
+      "id": "css-rgba",
+      "front": "How to set transparency?",
+      "back": "Use rgba()/#RRGGBBAA or opacity; opacity fades the whole element + children."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "category": "money",
+  "name": "Money Basics",
+  "cards": [
+    {
+      "id": "mn-emergency",
+      "front": "How big should an emergency fund be?",
+      "back": "Usually 3-6 months of expenses, instantly accessible."
+    },
+    {
+      "id": "mn-compound",
+      "front": "Why does starting early matter?",
+      "back": "Compound interest earns interest on interest — early years compound most."
+    },
+    {
+      "id": "mn-diversify",
+      "front": "Why diversify?",
+      "back": "Spreading across assets limits damage if one crashes."
+    },
+    {
+      "id": "mn-debt",
+      "front": "Pay debt or invest first?",
+      "back": "Usually clear high-interest debt first — its rate beats most returns."
+    },
+    {
+      "id": "mn-payself",
+      "front": "What is \"pay yourself first\"?",
+      "back": "Auto-save on payday before you can spend it."
+    },
+    {
+      "id": "mn-503020",
+      "front": "The 50/30/20 rule?",
+      "back": "~50% needs, 30% wants, 20% savings/debt — a starter budget."
+    },
+    {
+      "id": "mn-fees",
+      "front": "Why do fees matter so much?",
+      "back": "They compound against you; 1%/yr can eat a large chunk over decades."
+    },
+    {
+      "id": "mn-inflation",
+      "front": "What does inflation do to cash?",
+      "back": "Quietly erodes purchasing power — idle cash loses real value."
+    },
+    {
+      "id": "mn-creep",
+      "front": "What is lifestyle creep?",
+      "back": "Spending rising with income; bank part of each raise."
+    },
+    {
+      "id": "mn-credit",
+      "front": "Key to a good credit score?",
+      "back": "Pay on time and keep balances low vs your limit."
+    },
+    {
+      "id": "mn-rule72",
+      "front": "What is the rule of 72?",
+      "back": "72 ÷ annual return ≈ years to double your money (e.g. 8% → ~9 years)."
+    },
+    {
+      "id": "mn-dca",
+      "front": "What is dollar-cost averaging?",
+      "back": "Investing a fixed amount on a schedule, smoothing out price swings."
+    },
+    {
+      "id": "mn-horizon",
+      "front": "How to match risk to time?",
+      "back": "Money needed soon → safe; money for years away → can take more risk."
+    },
+    {
+      "id": "mn-buyhold",
+      "front": "Timing the market vs time in market?",
+      "back": "Time in the market usually beats timing it — staying invested wins long-term."
+    },
+    {
+      "id": "mn-networth",
+      "front": "Track income or net worth?",
+      "back": "Net worth (assets − debts) shows real progress; income alone can mislead."
+    },
+    {
+      "id": "mn-opportunity",
+      "front": "What is opportunity cost?",
+      "back": "Every dollar/hour spent here can't be used there — weigh the next-best option."
+    },
+    {
+      "id": "mn-gooddebt",
+      "front": "Good debt vs bad debt?",
+      "back": "Debt that builds value/income can pay off; high-interest consumer debt rarely does."
+    },
+    {
+      "id": "mn-insurance",
+      "front": "What should insurance cover?",
+      "back": "Big, rare, unaffordable risks — not small costs you could pay yourself."
+    },
+    {
+      "id": "mn-sinking",
+      "front": "What is a sinking fund?",
+      "back": "Saving a bit monthly for known future costs (car, gifts) so they don't shock you."
+    },
+    {
+      "id": "mn-24hr",
+      "front": "Curb impulse spending how?",
+      "back": "Use a 24-hour (or longer) wait before big non-essential buys."
+    },
+    {
+      "id": "mn-autopay",
+      "front": "Why automate bills?",
+      "back": "Autopay avoids late fees and credit damage; just keep a buffer."
+    },
+    {
+      "id": "mn-taxadv",
+      "front": "Why use tax-advantaged accounts?",
+      "back": "Tax-deferred or tax-free growth compounds faster than a taxable account."
+    },
+    {
+      "id": "mn-liquidity",
+      "front": "Why keep some money liquid?",
+      "back": "Locked-up money forces bad choices in emergencies; keep a cash cushion."
+    }
+  ]
+}

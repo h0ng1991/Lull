@@ -1,0 +1,121 @@
+{
+  "category": "productivity",
+  "name": "Productivity",
+  "cards": [
+    {
+      "id": "pr-2min",
+      "front": "What is the two-minute rule?",
+      "back": "Under two minutes? Do it now — tracking costs more than doing."
+    },
+    {
+      "id": "pr-eisenhower",
+      "front": "The Eisenhower matrix?",
+      "back": "Sort by urgent×important: do, schedule, delegate, delete."
+    },
+    {
+      "id": "pr-pomodoro",
+      "front": "The Pomodoro technique?",
+      "back": "25 min focus + 5 min break = one pomodoro; short sprints beat procrastination."
+    },
+    {
+      "id": "pr-start-small",
+      "front": "Beat \"can't get started\"?",
+      "back": "Shrink step one until it can't fail (\"just open the file\")."
+    },
+    {
+      "id": "pr-timebox",
+      "front": "What is timeboxing?",
+      "back": "Give a task a fixed slot, then stop — limits perfectionism and sprawl."
+    },
+    {
+      "id": "pr-singletask",
+      "front": "Why single-task?",
+      "back": "Task switching has a hidden reload cost; one thing at a time is faster."
+    },
+    {
+      "id": "pr-frog",
+      "front": "What is \"eat the frog\"?",
+      "back": "Do the hardest important task first, before willpower drains."
+    },
+    {
+      "id": "pr-parkinson",
+      "front": "Parkinson's law?",
+      "back": "Work expands to fill the time given; a tighter deadline often still works."
+    },
+    {
+      "id": "pr-review",
+      "front": "Why a weekly review?",
+      "back": "Ten minutes to clear inboxes, check goals, plan the week prevents drift."
+    },
+    {
+      "id": "pr-batch",
+      "front": "What is task batching?",
+      "back": "Group similar tasks into one block to cut context switching."
+    },
+    {
+      "id": "pr-mit",
+      "front": "What is the MIT method?",
+      "back": "Pick 1-3 \"most important tasks\" each morning; finish those before anything else."
+    },
+    {
+      "id": "pr-ivylee",
+      "front": "The Ivy Lee method?",
+      "back": "Each night list tomorrow's 6 tasks in priority order; work top-down."
+    },
+    {
+      "id": "pr-deepwork",
+      "front": "What is deep work?",
+      "back": "Long, distraction-free focus on one hard task — where the real output happens."
+    },
+    {
+      "id": "pr-capture",
+      "front": "Why keep one capture list?",
+      "back": "Offload every task to one trusted place so your brain stops re-reminding you."
+    },
+    {
+      "id": "pr-energy",
+      "front": "How to use your energy peaks?",
+      "back": "Schedule hard, creative work when your energy is highest; admin when it dips."
+    },
+    {
+      "id": "pr-wip",
+      "front": "Why limit work in progress?",
+      "back": "Finishing before starting reduces switching and gets things actually done."
+    },
+    {
+      "id": "pr-ifthen",
+      "front": "What is an implementation intention?",
+      "back": "An \"if X, then I'll do Y\" plan — pre-deciding beats relying on willpower."
+    },
+    {
+      "id": "pr-8020",
+      "front": "What is the Pareto (80/20) rule?",
+      "back": "Roughly 80% of results come from 20% of efforts — find and protect that 20%."
+    },
+    {
+      "id": "pr-breaks",
+      "front": "What makes a good break?",
+      "back": "Real rest (walk, look away) restores focus; scrolling doesn't."
+    },
+    {
+      "id": "pr-shutdown",
+      "front": "Why have a shutdown ritual?",
+      "back": "A clear end-of-day routine (review, plan tomorrow) frees your mind to rest."
+    },
+    {
+      "id": "pr-routinize",
+      "front": "How to fight decision fatigue?",
+      "back": "Routinize small recurring choices (meals, clothes) to save willpower for what matters."
+    },
+    {
+      "id": "pr-distraction",
+      "front": "Simplest focus boost?",
+      "back": "Put your phone out of sight — visible phones cut focus even when silent."
+    },
+    {
+      "id": "pr-template",
+      "front": "Recurring work — how to speed it up?",
+      "back": "Reuse templates and checklists so you don't re-think solved problems."
+    }
+  ]
+}

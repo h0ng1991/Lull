@@ -1,0 +1,126 @@
+{
+  "stack": "python",
+  "name": "Python",
+  "cards": [
+    {
+      "id": "py-mutable",
+      "front": "The mutable default arg trap?",
+      "back": "def f(x=[]) shares one list across calls. Use x=None, then x = x or []."
+    },
+    {
+      "id": "py-is-eq",
+      "front": "is vs ==?",
+      "back": "is compares identity (same object); == compares value."
+    },
+    {
+      "id": "py-gen",
+      "front": "Generator over a list?",
+      "back": "Lazy, O(1) memory, one at a time; no indexing, consumed once."
+    },
+    {
+      "id": "py-gil",
+      "front": "What does the GIL mean?",
+      "back": "One thread runs bytecode at a time; CPU-bound work needs multiprocessing."
+    },
+    {
+      "id": "py-with",
+      "front": "What does with do?",
+      "back": "Runs __enter__/__exit__ so cleanup happens even on exceptions."
+    },
+    {
+      "id": "py-comp",
+      "front": "What is a list comprehension?",
+      "back": "[x*2 for x in xs if x>0] — concise, fast list building."
+    },
+    {
+      "id": "py-args",
+      "front": "*args and **kwargs?",
+      "back": "*args = extra positional args (tuple); **kwargs = extra keyword args (dict)."
+    },
+    {
+      "id": "py-copy",
+      "front": "Shallow vs deep copy?",
+      "back": "Shallow shares nested objects; deepcopy duplicates everything."
+    },
+    {
+      "id": "py-fstring",
+      "front": "What are f-strings?",
+      "back": "f\"{name} is {age}\" — readable formatting that evaluates inline."
+    },
+    {
+      "id": "py-venv",
+      "front": "Why a virtual environment?",
+      "back": "Isolates a project's packages so versions don't clash."
+    },
+    {
+      "id": "py-enumerate",
+      "front": "What does enumerate do?",
+      "back": "Loops with an index: for i, v in enumerate(xs) — cleaner than range(len())."
+    },
+    {
+      "id": "py-zip",
+      "front": "What does zip do?",
+      "back": "Pairs items from several iterables: for a, b in zip(xs, ys)."
+    },
+    {
+      "id": "py-dictget",
+      "front": "Why use dict.get(key, default)?",
+      "back": "It returns a default instead of raising KeyError when the key is missing."
+    },
+    {
+      "id": "py-truthy",
+      "front": "What is \"truthiness\"?",
+      "back": "Empty containers, 0, \"\", and None are falsy; use \"if items:\" not \"if len(items)>0\"."
+    },
+    {
+      "id": "py-slice",
+      "front": "What does xs[start:stop:step] do?",
+      "back": "Slices a sequence; xs[::-1] reverses, xs[:3] takes the first three."
+    },
+    {
+      "id": "py-isnone",
+      "front": "How to check for None?",
+      "back": "Use \"x is None\", not \"x == None\" — identity, not equality."
+    },
+    {
+      "id": "py-exc",
+      "front": "try/except/finally?",
+      "back": "try runs code, except handles errors, finally always runs (cleanup)."
+    },
+    {
+      "id": "py-decorator",
+      "front": "What is a decorator?",
+      "back": "@deco wraps a function to add behavior (logging, caching) without changing it."
+    },
+    {
+      "id": "py-lambda",
+      "front": "What is a lambda?",
+      "back": "A small anonymous function: key=lambda x: x.age for sorting."
+    },
+    {
+      "id": "py-set",
+      "front": "When to use a set?",
+      "back": "For uniqueness and fast membership tests (x in s is O(1))."
+    },
+    {
+      "id": "py-join",
+      "front": "Best way to build a string from a list?",
+      "back": "\"\".join(parts) — far faster than repeated + in a loop."
+    },
+    {
+      "id": "py-main",
+      "front": "What is if __name__ == \"__main__\"?",
+      "back": "Code there runs only when the file is run directly, not when imported."
+    },
+    {
+      "id": "py-hints",
+      "front": "What do type hints do?",
+      "back": "def f(x: int) -> str documents types and enables tools; they're not enforced at runtime."
+    },
+    {
+      "id": "py-dictcomp",
+      "front": "What is a dict comprehension?",
+      "back": "{k: v for k, v in pairs} — build a dict concisely, like list comprehensions."
+    }
+  ]
+}
